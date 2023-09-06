@@ -1,0 +1,162 @@
+/*RESET - por default todo el documento va a tener este formato */
+*{
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+/*  COLORES rosa #fff0f5
+            verde #43512a;
+            verde intermedio  #50524a;
+            verde oscuro #353e25; 
+            tiza #ffffff*/ 
+
+/*ESTILOS GENERALES*/
+#section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(111, 115, 114);
+    margin-bottom: 0.26%;
+}
+
+.logo{
+    display:flex;
+    width: 12%;
+}
+
+.enlace{
+    display: flex;   
+}
+
+.enlace li{
+    list-style-type: none;
+}
+
+.enlace li a{
+    text-decoration: none;
+    color:  rgb(244, 226, 229);
+    font-size: 140%;
+    font-weight: 600;
+    padding: 30px;
+    background-color: rgb(111, 115, 114);
+}
+
+.section-footer{
+    display: flex;
+    background-color: none;
+    /*width: 1px;*/
+}
+
+.table-mensaje{
+    background-color: #fff0f5;
+}
+
+.table-mensaje td{
+    background-color: #fff0f5;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size:5m;
+    font-weight: 600;
+    color: #43512a;
+    text-align: center;
+}
+
+/*ESTILOS DEL INDEX*/
+
+.frase{
+    font-style: italic;
+    font-size:2em;
+    font-weight: 600;
+    color:#353e25;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background: none;
+}
+
+.img-portada{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0  ;
+}
+
+.section-footer{
+    display: flex;
+    /*position: fixed;*/
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(244, 226, 229);
+}
+
+.contenedor-iconos{
+    background-color:  rgb(244, 226, 229);
+    
+}
+
+.contenedor-enlace{
+    background-color:  rgb(244, 226, 229);
+    color:  rgb(244, 226, 229);;
+}
+
+.icono-footer{
+    background-color:  rgb(244, 226, 229);
+    width: 13%;
+
+}
+
+/*ESTILOS DE SERVICIOS*/
+.servicios h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    color: #43512a;
+}
+
+.servicios img {
+    width: 50%;
+}
+
+/*ESTILOS PORTAFOLIO*/
+.card{
+    width: 40%;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 4%;
+}
+
+.card titulo{   
+    color: #50524a;
+    text-align: center;
+}
+
+/*ESTILOS CONOCEME*/
+.img-central{
+    width: 30%;
+}
+
+.img-conoceme{
+    width: 30%;
+}
+
+.text-aling-justify{
+    text-align: justify;
+}
+
+.p-conoceme{
+    background-color: #fff0f5;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/*ESTILOS CONTACTO*/
+.section-contacto{
+    font-style: italic;
+}
