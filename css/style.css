@@ -1,29 +1,44 @@
 /*RESET - por default todo el documento va a tener este formato */
 *{
     font-family: 'Lato', sans-serif;
-    background-color: #ffffff;
+    background-color: #f7f8f2;
     padding: 0;
     margin: 0;
 }
 
-/*  COLORES rosa #fff0f5
-            verde #43512a;
-            verde intermedio  #50524a;
-            verde oscuro #353e25; 
-            tiza #ffffff*/ 
+/*  COLORES rosa #f0e3db;
+            verde1 #c3d3c6;
+            verde2 #bdd2c1;
+            verde oscuro #95a09a; 
+            tiza #f7f8f2;   */ 
 
 /*ESTILOS GENERALES*/
-#section-header{
+.section-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:  rgb(111, 115, 114);
-    margin-bottom: 0.26%;
+    background-color:  #95a09a;
+    /*margin-bottom: 0.26%;*/
+    padding: 0;
+    margin: 0;
 }
 
 .logo{
     display:flex;
-    width: 12%;
+    width: 100%;
+}
+
+.section-header__col-logo{
+    padding: 0;
+    justify-content: right;
+}
+
+.section-header__col-enlaces{
+    padding: 0;
+}
+
+.borde-boton{
+    border: none;
 }
 
 .enlace{
@@ -36,11 +51,12 @@
 
 .enlace li a{
     text-decoration: none;
-    color:  rgb(244, 226, 229);
+    color: #f7f8f2;
     font-size: 140%;
     font-weight: 600;
-    padding: 30px;
-    background-color: rgb(111, 115, 114);
+    /*padding: 30px;*/
+    background-color:#95a09a;
+    align-items: start;
 }
 
 .section-footer{
@@ -91,23 +107,21 @@ h1{
     bottom: 0;
     justify-content: space-between;
     align-items: center;
-    background-color:  rgb(244, 226, 229);
+    background-color:  #f0e3db;
 }
 
 .contenedor-iconos{
-    background-color:  rgb(244, 226, 229);
-    
+    background-color:  #f0e3db;
 }
 
 .contenedor-enlace{
-    background-color:  rgb(244, 226, 229);
-    color:  rgb(244, 226, 229);;
+    background-color:  #f0e3db;
+    color: #f0e3db;
 }
 
 .icono-footer{
-    background-color:  rgb(244, 226, 229);
+    background-color: #f0e3db;
     width: 13%;
-
 }
 
 /*ESTILOS DE SERVICIOS*/

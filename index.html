@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta html-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!--ENLACE A GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
     <!--CSS-->
     <link rel="stylesheet" href="./css/style.css">
@@ -19,18 +22,41 @@
 
 <body>
     <header>
-        <section id="section-header">    
-            <img class="logo" src="./assets/Logo.jpeg" alt="Logo Tina | Diseño de Interiores">
-            <nav>
-                <ul class="enlace">
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./pages/conoceme.html">Conoceme</a></li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/portafolio.html">Portafolio</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </section>
+        <div class="container section-header"> 
+            <div class="row">   
+                <div class="col-2 section-header__col-logo">
+                    <img class="logo" src="./assets/Logo.jpeg" alt="Logo Tina |Diseño de Interiores">
+                </div>
+                <div class="col-10 section-header__col-enlaces">
+                    <nav class="navbar navbar-expand-lg"> <!--bg-body-tertiary-->
+                        <div class="container-fluid">
+                        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+                        <button class="navbar-toggler borde-boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 enlace">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/conoceme.html">Conoceme</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/portafolio.html">Portafolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                            </li>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main> 
@@ -59,6 +85,8 @@
         </section>       
     </footer>
 
+    <!--SCRIPT DE BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
