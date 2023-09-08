@@ -1,94 +1,26 @@
 /*RESET - por default todo el documento va a tener este formato */
 *{
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'adam';
+    font-size: large;
     background-color: #f7f8f2;
     padding: 0;
     margin: 0;
 }
 
+/*ENLACE ADAM FONT*/
 @font-face {
     font-family:'adam';
     src: url(../fonts/Adam-Bold.ttf);
 }
 
-/*  COLORES rosa #f0e3db;
-            verde1 #c3d3c6;
-            verde2 #bdd2c1;
-            verde oscuro #95a09a; 
-            tiza #f7f8f2;   */ 
-
-/*ESTILOS GENERALES*/
-
-.section-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:  #95a09a;
-    /*margin-bottom: 0.26%;*/
-    padding: 0;
-    margin: 0;
-}
-
-.logo{
-    display:flex;
-    width: 100%;
-}
-
-.section-header__col-logo{
-    padding: 0;
-    justify-content: right;
-}
-
-.section-header__col-enlaces{
-    display: flex;
-    padding: 0;
-    width: 100%;
-}
-
-.borde-boton{
-    border: none;
-}
-
-.enlace{
-    display: flex;   
-}
-
-.enlace li{
-    list-style-type: none;
-}
-
-.enlace li a{
-    text-decoration: none;
-    color: #f7f8f2;
-    font-size: 140%;
-    font-weight: 600;
-    /*padding: 30px;*/
-    background-color:#95a09a;
-    align-items: start;
-}
-
-.section-footer{
-    display: flex;
-    background-color: none;
-    /*width: 1px;*/
-}
-
-.table-mensaje{
-    background-color: #fff0f5;
-}
-
-.table-mensaje td{
-    background-color: #fff0f5;
-}
-
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-size:5m;
-    font-weight: 600;
-    color: #43512a;
-    text-align: center;
-}
-
+/*  COLORES:
+    rosa #f0e3db;
+    verde1 #c3d3c6;
+    verde2 #bdd2c1;
+    verde oscuro #95a09a; 
+    verde H1 #5e615f99;
+    tiza #f7f8f2;   */ 
 
 /*ESTILOS DEL HEADER*/
 
@@ -111,12 +43,38 @@ h1{
     color: #95a09a;
  }
 
+/*ESTILOS GENERALES*/
+
+.section-footer{
+    display: flex;
+    background-color: none;
+    /*width: 1px;*/
+}
+
+.table-mensaje{
+    background-color: #fff0f5;
+}
+
+.table-mensaje td{
+    background-color: #fff0f5;
+}
+
+h1{
+    font-family: 'adam';
+    font-size:5m;
+    font-weight: 600;
+    color:#5e615f99;
+    text-align: center;
+}
+
+
 /*ESTILOS DEL INDEX*/
 .frase{
+    font-family:'adam';
     font-style: italic;
     font-size:1.7em;
     font-weight: 600;
-    color:#95a09a;
+    color:#5e615f;
     position: absolute;
     top: 35%;
     left: 25%;
