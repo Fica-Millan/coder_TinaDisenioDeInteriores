@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family:'adam';
+    src: url(../fonts/Adam-Bold.ttf);
+}
+
 /*  COLORES rosa #f0e3db;
             verde1 #c3d3c6;
             verde2 #bdd2c1;
@@ -13,6 +18,7 @@
             tiza #f7f8f2;   */ 
 
 /*ESTILOS GENERALES*/
+
 .section-header{
     display: flex;
     justify-content: space-between;
@@ -34,7 +40,9 @@
 }
 
 .section-header__col-enlaces{
+    display: flex;
     padding: 0;
+    width: 100%;
 }
 
 .borde-boton{
@@ -81,16 +89,37 @@ h1{
     text-align: center;
 }
 
-/*ESTILOS DEL INDEX*/
 
+/*ESTILOS DEL HEADER*/
+
+.bg-nav{
+    background-color: #95a09a;
+}
+ .contenedor-nav{
+    padding: 0;
+ }
+.logo-nav{
+    width: 28%;
+}
+.boton-nav{
+    color: #95a09a;
+    border: none;
+}
+ .font-nav{
+    font-family:'adam';
+    font-size: x-large;
+    color: #95a09a;
+ }
+
+/*ESTILOS DEL INDEX*/
 .frase{
     font-style: italic;
-    font-size:2em;
+    font-size:1.7em;
     font-weight: 600;
-    color:#353e25;
+    color:#95a09a;
     position: absolute;
     top: 35%;
-    left: 35%;
+    left: 25%;
     background: none;
 }
 
@@ -98,29 +127,28 @@ h1{
     width: 100%;
     height: 100%;
     padding: 0;
-    margin: 0  ;
+    margin: 0;
 }
 
 .section-footer{
     display: flex;
-    /*position: fixed;*/
     bottom: 0;
     justify-content: space-between;
     align-items: center;
-    background-color:  #f0e3db;
+    background-color:  #95a09a;
 }
 
 .contenedor-iconos{
-    background-color:  #f0e3db;
+    background-color:  #95a09a;
 }
 
 .contenedor-enlace{
-    background-color:  #f0e3db;
-    color: #f0e3db;
+    background-color: #95a09a;
+    color: #95a09a;
 }
 
 .icono-footer{
-    background-color: #f0e3db;
+    background-color:#95a09a;
     width: 13%;
 }
 
