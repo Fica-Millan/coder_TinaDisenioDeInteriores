@@ -65,6 +65,7 @@ h1{
     font-weight: 600;
     color:#5e615f99;
     text-align: center;
+    margin: revert;
 }
 
 
@@ -138,19 +139,25 @@ h1{
 
 /*ESTILOS CONOCEME*/
 .img-central{
-    width: 30%;
+    width: 95%;
 }
-
 .img-conoceme{
-    width: 30%;
+    width: 95%;
 }
-
+.p-padding{
+    padding-top: 30px;
+}
 .text-aling-justify{
     text-align: justify;
 }
 
+.text-aling-center{
+    text-align: center;
+}
+
 .p-conoceme{
-    background-color: #fff0f5;
+    background-color: #f0e3db;
+    font-family: 'Indie Flower', cursive;
     font-style: italic;
     text-align: center;
     font-size: 1.3rem;
