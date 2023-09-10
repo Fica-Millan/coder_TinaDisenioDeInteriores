@@ -43,12 +43,12 @@
     color: #95a09a;
 }
 
-/*ESTILOS GENERALES*/
+/*ESTILOS FOOTER*/
 
 .logo-footer{
-    width: 16%;
+    width: 17%;
+    margin-top: 35px;
 }
-
 .a-footer{
     background-color: #f7f8f2;
     color: #f7f8f2;
@@ -58,6 +58,8 @@
     width: 5%;
 }
 
+/*ESTILOS GENERALES*/
+
 h1{
     font-family: 'adam';
     font-size:5m;
@@ -65,6 +67,12 @@ h1{
     color:#5e615f99;
     text-align: center;
     margin: revert;
+}
+.text-aling-justify{
+    text-align: justify;
+}
+.text-aling-center{
+    text-align: center;
 }
 
 /*ESTILOS DEL INDEX*/
@@ -74,18 +82,15 @@ h1{
     font-weight: 600;
     color:#5e615f;
     position: absolute;
-    top: 35%;
-    left: 25%;
+    top: 25%;
+    left: 28%;
     background: none;
 }
-
 .img-portada{
     width: 100%;
-    height: 100%;
     padding: 0;
     margin: 0;
 }
-
 .section-footer{
     display: flex;
     bottom: 0;
@@ -93,16 +98,13 @@ h1{
     align-items: center;
     background-color:  #95a09a;
 }
-
 .contenedor-iconos{
     background-color:  #95a09a;
 }
-
 .contenedor-enlace{
     background-color: #95a09a;
     color: #95a09a;
 }
-
 .icono-footer{
     background-color:#95a09a;
     width: 13%;
@@ -116,7 +118,6 @@ h1{
     color:#95a09a;
     background-color:#f0e3db;
 }
-
 .row-servicios{
     margin: 5px;
     padding: 0;
@@ -124,13 +125,10 @@ h1{
 .col-servicios{
     padding: 0;
 }
-
-
 .img-servicios {
     width: 100%;
     padding: 5px;
 }
-
 .p-servicios{
     font-size: x-large;
     text-align: justify;
@@ -141,12 +139,6 @@ h1{
     width: 90%;
     border-radius: 4%;
 }
-
-.card titulo{   
-    color: #50524a;
-    text-align: center;
-}
-
 .h2-portafolio {
     font-weight:600;
     text-align:center;   
@@ -165,14 +157,6 @@ h1{
 .p-padding{
     padding-top: 30px;
 }
-.text-aling-justify{
-    text-align: justify;
-}
-
-.text-aling-center{
-    text-align: center;
-}
-
 .p-conoceme{
     background-color: #f0e3db;
     font-family: 'Indie Flower', cursive;
@@ -185,9 +169,15 @@ h1{
 .p-contacto{
     font-family: 'Indie Flower', cursive;
     font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 80px;
 }
-.icono{
-    width: 12%;
+.icono-contacto{
+    width: 60%;
+}
+.p-padding-cero{
+    padding: 0;
 }
 .btn-contacto{
     border: none;
