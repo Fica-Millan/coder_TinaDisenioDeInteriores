@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta html-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--ENLACE A GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
     <!--ENLACE ADAM FONTS-->
     <link rel="stylesheet" type="text/css" href="../fonts/Adam-Bold.ttf">
@@ -57,59 +57,80 @@
     </header>
   
     <main>
-        <h1>Contactanos</h1>
-        <p>Estamos aquí para convertir tus ideas en realidad. Si estás listo para comenzar tu próximo proyecto de diseño interior o tienes alguna pregunta, <em>dudes en ponerte en contacto con nosotros</em>. Esperamos colaborar con vos para crear espacios que reflejen tu estilo y satisfagan tus necesidades. Utiliza el formulario de contacto o los detalles proporcionados <em>para iniciar esta emocionante travesía de diseño juntos</em>.</p>
+      <div class="container">
+         <!--TITULO DE LA SECCION-->
+        <div class="row">
+          <div class="col">
+            <h1>Contactanos</h1>
+          </div>
+        </div>
+        <!--FRASE INVITANDO A CONTACTARSE-->
+        <div class="row">
+          <div class="col">
+            <p class="text-aling-justify" >Estamos aquí para convertir tus ideas en realidad. Si estás listo para comenzar tu próximo proyecto de diseño interior o tienes alguna pregunta, dudes en ponerte en contacto con nosotros. Esperamos colaborar con vos para crear espacios que reflejen tu estilo y satisfagan tus necesidades. Utiliza el formulario de contacto o los detalles proporcionados para iniciar esta emocionante travesía de diseño juntos.</p>
+          </div>
+        </div>
+        <!--FORMULARIO CONTACTO-->
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <form class="row">
+                  <input type="text" class="form-control" id="contactName" placeholder="Ingresá tu nombre y apellido" required>
+                  <input type="text" class="form-control" id="contactEmail" placeholder="Ingresá tu e-mail" required>
+                  <input type="text" class="form-control" id="contactPhone"  placeholder="Ingresá tu número de celular" required>
+                  <textarea class="form-control" placeholder="Ingresá tu mensaje" id="contactMsg" name="contactMsg" rows="6"></textarea>
+                  <button class="btn-contacto">Enviar consulta</button>
+              </form>
+            </div>
 
-        <!--Aca lo que quise hacer es la estructura para enviar una consulta desde la pagina, pero estoy casi segura que esto no es asi, pero quice hacer algo que lo ejemplifique-->
-        <table class="table-mensaje">
-            <tr>
-                <td>Nombre</td>
-            </tr>
-            <tr>
-                <td>e-mail</td> 
-            </tr>
-            <tr>
-                <td>Telefono</td>
-            </tr>
-            <tr>
-                <td>Tipo de proyecto</td> <!--Aca iria una lista desplegable para que elija una opcion. ¿Como se hace eso?-->
-            </tr> 
-            <tr>
-                <td>Mensaje</td>
-            </tr>
-            <tr>
-                <td>Enviar</td>
-            </tr>
-        </table>
+            <div class="col">
+              <!--HORARIOS DE ATENCION-->
+              <section>
+              <p>Horarios de atención:<br><br>Lunes a Viernes de 10 a 19 hs.<br>Sábados de 11 a 16 hs.</p>
+              </section>
+              <img class="icono" src="../assets/icono-correo1.png" alt="Icono de e-mail"> 
+              <p>tinainteriores@gmail.com</p>
+              <img class="icono" src="../assets/icono_tubo.png" alt="Icono de telefono"> 
+              <p>+54 9 115-488-6749</p>
+              <p class="p-contacto">Espero tu mensaje!<br> Agus</p>
+            </div>
+          </div>
+          
+        </div>
 
-        <!--HORARIOS DE ATENCION-->
-        <section class="section-contacto">
-            <p> <strong>Horarios de atención:</strong> <br><br>Lunes a Viernes de 10 a 19 hs.<br>Sábados de 11 a 16 hs. <br><br></p>
-            <img class="icono" src="../assets/icono-correo.png" alt="Icono de e-mail"> 
-            <p>tinainteriores@gmail.com</p>
-            <img class="icono" src="../assets/icono_tubo.png" alt="Icono de telefono"> 
-            <p>+54 9 115-488-6749</p>
-        </section>
+      </div>
 
     </main>
 
     <footer>
-        <img class="logo" src="../assets/logo-pie.png" alt="Logo Tina | Diseño de Interiores">
-        <div>
-            <!--ENLACE A WHATSAPP WEB-->
-            <a href="https://wa.link/lldf3s">
-                <img class="icono" src="../assets/icono_wapp1.png" alt="Icono de whatsapp">
-            </a>
-            <!--ENLACE A PAGINA DE INSTAGRAM-->
-            <a href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
-                <img class="icono" src="../assets/icono_instagram1.png" alt="Icono de Instagram">
-            </a>
-            <!--EANLACE A CORREO ELECTRONICO-->
-            <a href="mailto:tinainteriores@gmail.com">
-                <img class="icono" src="../assets/icono-correo1.png" alt="Icono de e-mail">
-            </a>
-        </div>    
-        <p>©Tina | Diseño de Interiores. Todos los derechos reservados.</p>  
+      <div class="container">
+        <!--LOGO Y ENLACES-->
+        <div class="row">
+          <div class="col text-aling-center">                    
+              <img class="logo-footer" src="../assets/logo-pie.png" alt="Logo Tina | Diseño de Interiores">
+              <div>
+                <!--ENLACE A WHATSAPP WEB-->
+                <a class="a-footer"  href="https://wa.link/lldf3s">
+                  <img class="icono-footer-dark" src="../assets/icono_wapp1.png" alt="Icono de whatsapp">
+                </a>
+                <!--ENLACE A PAGINA DE INSTAGRAM-->
+                <a class="a-footer" href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
+                  <img class="icono-footer-dark" src="../assets/icono_instagram1.png" alt="Icono de Instagram">
+                </a>
+                <!--ENLACE A CORREO ELECTRONICO-->
+                <a class="a-footer" href="mailto:tinainteriores@gmail.com">
+                  <img class="icono-footer-dark" src="../assets/icono-correo1.png" alt="Icono de e-mail">
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="row p-padding">
+            <div class="col text-aling-center">
+              <p>Code & Desing by FiCA</p>  
+            </div>
+        </div>
+      </div>
+
     </footer>
     
     <!--SCRIPT DE BOOTSTRAP-->

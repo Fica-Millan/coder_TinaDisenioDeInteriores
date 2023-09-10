@@ -2,7 +2,7 @@
 *{
     /*font-family: 'Lato', sans-serif;*/
     font-family: 'adam';
-    font-size: large;
+    font-size: x-large;
     background-color: #f7f8f2;
     padding: 0;
     margin: 0;
@@ -27,9 +27,9 @@
 .bg-nav{
     background-color: #95a09a;
 }
- .contenedor-nav{
+.contenedor-nav{
     padding: 0;
- }
+}
 .logo-nav{
     width: 28%;
 }
@@ -37,26 +37,25 @@
     color: #95a09a;
     border: none;
 }
- .font-nav{
+.font-nav{
     font-family:'adam';
     font-size: x-large;
     color: #95a09a;
- }
+}
 
 /*ESTILOS GENERALES*/
 
-.section-footer{
-    display: flex;
-    background-color: none;
-    /*width: 1px;*/
+.logo-footer{
+    width: 16%;
 }
 
-.table-mensaje{
-    background-color: #fff0f5;
+.a-footer{
+    background-color: #f7f8f2;
+    color: #f7f8f2;
 }
-
-.table-mensaje td{
-    background-color: #fff0f5;
+.icono-footer-dark{
+    background-color: #f7f8f2;
+    width: 5%;
 }
 
 h1{
@@ -68,12 +67,10 @@ h1{
     margin: revert;
 }
 
-
 /*ESTILOS DEL INDEX*/
 .frase{
     font-family:'adam';
-    font-style: italic;
-    font-size:1.7em;
+    font-size:1.3em;
     font-weight: 600;
     color:#5e615f;
     position: absolute;
@@ -112,23 +109,36 @@ h1{
 }
 
 /*ESTILOS DE SERVICIOS*/
-.servicios h2{
-    font-family: 'Raleway', sans-serif;
+.h2-servicios {
     font-weight:600;
-    color: #43512a;
+    font-size: 0.8rem;
+    text-align:center;   
+    color:#95a09a;
+    background-color:#f0e3db;
 }
 
-.servicios img {
-    width: 50%;
+.row-servicios{
+    margin: 5px;
+    padding: 0;
+}
+.col-servicios{
+    padding: 0;
+}
+
+
+.img-servicios {
+    width: 100%;
+    padding: 5px;
+}
+
+.p-servicios{
+    font-size: x-large;
+    text-align: justify;
 }
 
 /*ESTILOS PORTAFOLIO*/
-.card{
-    width: 40%;
-}
-
 .card-img{
-    width: 100%;
+    width: 90%;
     border-radius: 4%;
 }
 
@@ -137,12 +147,20 @@ h1{
     text-align: center;
 }
 
+.h2-portafolio {
+    font-weight:600;
+    text-align:center;   
+    color:#95a09a;
+    font-size: larger;
+}
+
 /*ESTILOS CONOCEME*/
 .img-central{
-    width: 95%;
+    width: 120%;
 }
 .img-conoceme{
     width: 95%;
+    padding: 0;
 }
 .p-padding{
     padding-top: 30px;
@@ -160,10 +178,18 @@ h1{
     font-family: 'Indie Flower', cursive;
     font-style: italic;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 /*ESTILOS CONTACTO*/
-.section-contacto{
-    font-style: italic;
+.p-contacto{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1rem;
+}
+.icono{
+    width: 12%;
+}
+.btn-contacto{
+    border: none;
+    background-color: #bdd2c1;
 }
