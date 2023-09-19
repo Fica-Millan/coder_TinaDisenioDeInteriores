@@ -22,6 +22,17 @@
     verde H1 #5e615f99;
     tiza #f7f8f2;   */ 
 
+/*GRID*/
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 118px 1fr 10px;
+    grid-template-areas: 
+    "menu"
+    "frase"
+    "enlaces";
+}
+
 /*ESTILOS DEL HEADER*/
 
 .bg-nav{
@@ -76,34 +87,46 @@ h1{
 }
 
 /*ESTILOS DEL INDEX*/
-.frase{
-    font-family:'adam';
-    font-size:1.3em;
-    font-weight: 600;
-    color:#5e615f;
-    position: absolute;
-    top: 25%;
-    left: 28%;
-    background: none;
+.menu{
+    grid-area: menu;
 }
+
 .img-portada{
-    width: 100%;
+    background-image: url('../assets/portada.jpg');
+    background-size: cover;
+    height: 530px;
     padding: 0;
     margin: 0;
+    position: relative;
 }
+
+.frase{
+    grid-area: frase;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.1rem;
+    font-weight: 300;
+    font-style: italic;
+    color:#5e615f;
+    position: absolute;
+    top: 27%;
+    left: 27%;
+    text-align: center;
+    background: none;
+}
+
 .section-footer{
     display: flex;
     bottom: 0;
     justify-content: space-between;
     align-items: center;
-    background-color:  #95a09a;
+    background-color:transparent;
+    position: absolute;
 }
 .contenedor-iconos{
-    background-color:  #95a09a;
+    background-color:  transparent;
 }
 .contenedor-enlace{
-    background-color: #95a09a;
-    color: #95a09a;
+    color:transparent;
 }
 .icono-footer{
     background-color:#95a09a;
