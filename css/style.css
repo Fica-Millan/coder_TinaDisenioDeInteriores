@@ -76,38 +76,46 @@ h1{
 }
 
 /*ESTILOS DEL INDEX*/
+.grid{
+    margin: 0;
+    padding: 0;
+}
 .frase{
-    font-family:'adam';
-    font-size:1.3em;
-    font-weight: 600;
+    display: flex;
+    text-align: center;
+    font-family:'Indie Flower', cursive;
+    font-size:1.1em;
     color:#5e615f;
     position: absolute;
-    top: 25%;
-    left: 28%;
+    top: 15%;
+    left: 30%;
     background: none;
 }
 .img-portada{
-    width: 100%;
+    background-image: url(../assets/portada.jpg);
+    background-size: cover;
+    height: 540px;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 .section-footer{
-    display: flex;
+    position: absolute;
     bottom: 0;
-    justify-content: space-between;
-    align-items: center;
-    background-color:  #95a09a;
+    background-color:  transparent;
+    margin-bottom: 5px;
 }
 .contenedor-iconos{
-    background-color:  #95a09a;
+    margin-left: 42px;
+    background-color: transparent;
 }
 .contenedor-enlace{
-    background-color: #95a09a;
-    color: #95a09a;
+    background-color: transparent;
+    color: transparent;
 }
 .icono-footer{
-    background-color:#95a09a;
-    width: 13%;
+    background-color:transparent;
+    width: 11%;
 }
 
 /*ESTILOS DE SERVICIOS*/

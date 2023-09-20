@@ -2,87 +2,93 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta html-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta html-equiv="X-UA-Compatible" content="IE=edge" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!--ENLACE A GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100;1,300&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+  <!--ENLACE A GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 
-    <!--ENLACE ADAM FONTS-->
-    <link rel="stylesheet" type="text/css" href="./fonts/Adam-Bold.ttf">
+  <!--ENLACE ADAM FONTS-->
+  <link rel="stylesheet" type="text/css" href="./fonts/Adam-Bold.ttf">
 
-    <!--BOOTSTRAP-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!--BOOTSTRAP-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <!--CSS-->
-    <link rel="stylesheet" href="./css/style.css">
-    
-    <title>Tina | Diseño de Interiores</title>
+  <!--CSS-->
+  <link rel="stylesheet" href="./css/style.css">
+   
+  <title>Tina | Diseño de Interiores</title>
 </head>
 
 <body>
-    <header>
+  <div class="container-fluid grid ">
+    <div class="row">
+      <div class="col">
+        <header class="enlaces">
         <nav class="navbar navbar-expand-lg bg-nav">
-            <div class="container-fluid contenedor-nav">
-              <a class="navbar-brand" href="./index.html"><img class="logo-nav"  src="./assets/Logo.jpeg" alt="Logo Tina | Diseño de Interiores"></a>
-              <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end">
-                  <li class="nav-item">
-                    <a class="nav-link font-nav" href="./index.html">INICIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link font-nav" href="./pages/conoceme.html">CONOCEME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link font-nav" href="./pages/servicios.html">SERVICIOS</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link font-nav" href="./pages/portafolio.html">PORTAFOLIO</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link font-nav" href="./pages/contacto.html">CONTACTO</a>
-                  </li>
-                </ul>
-                
-              </div>
+          <div class="container-fluid contenedor-nav">
+            <a class="navbar-brand" href="./index.html"><img class="logo-nav"  src="./assets/Logo.jpeg" alt="Logo Tina | Diseño de Interiores"></a>
+            <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end">
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="./index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="./pages/conoceme.html">CONOCEME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="./pages/servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="./pages/portafolio.html">PORTAFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="./pages/contacto.html">CONTACTO</a>
+                </li>
+              </ul>
             </div>
-      </nav>
-    </header>
+          </div>
+        </nav>
+        </header>
+      </div>
+    </div>
 
-    <main> 
-        <img class="img-portada" src="./assets/portada.jpg" alt="Imagen de un living">
-        <p class="frase">"Tu estilo, tu esencia, nuestros diseños:<br>espacios únicos que se moldean a tus sueños. <br>Fusionamos arte y funcionalidad en cada detalle,<br>creando una experiencia que deslumbra."</p>
-    </main>
+    <div class="row">
+      <div class="col img-portada">
+        <main> 
+          <p class="frase">"Tu estilo, tu esencia, nuestros diseños:<br>espacios únicos que se moldean a tus sueños. <br>Fusionamos arte y funcionalidad en cada detalle,<br>creando una experiencia que deslumbra."</p>
+        </main>
 
-    <footer>
-        <section class="section-footer">
-            <div class="contenedor-iconos">
-                <!--ENLACE A WHATSAPP WEB-->
-                <a class="contenedor-enlace" href="https://wa.link/lldf3s">
-                    <img class="icono-footer" src="./assets/icono_wapp.png" alt="Icono de whatsapp">
-                </a>
+        <footer class="section-footer">
+          <div class="contenedor-iconos">
+            <!--ENLACE A WHATSAPP WEB-->
+            <a class="contenedor-enlace" href="https://wa.link/lldf3s">
+              <img class="icono-footer" src="./assets/icono_wapp1.png" alt="Icono de whatsapp">
+            </a>
+            <!--ENLACE A PAGINA DE INSTAGRAM-->
+            <a class="contenedor-enlace" href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
+              <img class="icono-footer" src="./assets/icono_instagram1.png" alt="Icono de Instagram">
+            </a>
+            <!--ENLACE PARA ESCRIBIR UN MENSAJE-->
+            <a class="contenedor-enlace" href="./pages/contacto.html">
+              <img class="icono-footer" src="./assets/icono-correo1.png" alt="Icono de e-mail">
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
 
-                <!--ENLACE A PAGINA DE INSTAGRAM-->
-                <a class="contenedor-enlace" href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
-                    <img class="icono-footer" src="./assets/icono_instagram.png" alt="Icono de Instagram">
-                </a>
+  </div>
 
-                <!--ENLACE PARA ESCRIBIR UN MENSAJE-->
-                <a class="contenedor-enlace" href="./pages/contacto.html">
-                    <img class="icono-footer" src="./assets/icono-correo.png" alt="Icono de e-mail">
-                </a>
-            </div>
-        </section>       
-    </footer>
+  <!--SCRIPT DE BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
-    <!--SCRIPT DE BOOTSTRAP-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 
 </html>
