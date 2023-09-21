@@ -1,6 +1,5 @@
 /*RESET - por default todo el documento va a tener este formato */
 *{
-    /*font-family: 'Lato', sans-serif;*/
     font-family: 'adam';
     font-size: x-large;
     background-color: #f7f8f2;
@@ -14,13 +13,10 @@
     src: url(../fonts/Adam-Bold.ttf);
 }
 
-/*  COLORES:
-    rosa #f0e3db;
-    verde1 #c3d3c6;
-    verde2 #bdd2c1;
-    verde oscuro #95a09a; 
-    verde H1 #5e615f99;
-    tiza #f7f8f2;   */ 
+/*COLORES:
+  rosa #f0e3db;      verde1 #c3d3c6;
+  verde2 #bdd2c1;    verde oscuro #95a09a; 
+  verdeH1 #5e615f99; tiza #f7f8f2;   */ 
 
 /*ESTILOS DEL HEADER*/
 
@@ -88,7 +84,7 @@ h1{
     color:#5e615f;
     position: absolute;
     top: 15%;
-    left: 30%;
+    left: 25%;
     background: none;
 }
 .img-portada{
@@ -190,4 +186,22 @@ h1{
 .btn-contacto{
     border: none;
     background-color: #bdd2c1;
+}
+
+/*MEDIA QUERIES*/
+@media (min-width:300px) and (max-width:576px) {
+    .frase{
+        font-size:0.7em;
+        top: 0%;
+        left: 20%;
+    }
+    .img-portada{
+        background-image: url(../assets/portada2.jpg);
+    }
+    .contenedor-iconos{
+        margin-left: 300px;
+    }
+    .icono-footer{
+        width: 15%;
+    }
 }
