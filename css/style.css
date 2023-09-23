@@ -1,4 +1,4 @@
-/*RESET - por default todo el documento va a tener este formato */
+/*--RESET--*/
 *{
     font-family: 'adam';
     font-size: x-large;
@@ -7,18 +7,18 @@
     margin: 0;
 }
 
-/*ENLACE ADAM FONT*/
+/*--ENLACE ADAM FONT--*/
 @font-face {
     font-family:'adam';
     src: url(../fonts/Adam-Bold.ttf);
 }
 
-/*COLORES:
-  rosa #f0e3db;      verde1 #c3d3c6;
-  verde2 #bdd2c1;    verde oscuro #95a09a; 
-  verdeH1 #5e615f99; tiza #f7f8f2;   */ 
+/*--COLORES--
+  rosa #f0e3db;         tiza #f7f8f2;
+  verde #bdd2c1;        verde oscuro #95a09a; 
+  verdeH1 #5e615f99;    verdeFrase #5e615f; */ 
 
-/*GRID - CONOCEME*/
+/*--GRID - CONOCEME--*/
 .grid__container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,14 +33,13 @@
     'detalle5   detalle5    detalle5';
     margin: 15px;
 }
-
 .caja{
     margin: 15px;
 }
 .descripcion_1{
     grid-area: detalle1;
 }
-.foto_frente{
+.foto-frente{
     grid-area: foto_frente;
     width: 93%;
 }
@@ -85,9 +84,7 @@
     margin-top: 0;
 }
 
-
-/*ESTILOS DEL HEADER*/
-
+/*--ESTILOS DEL HEADER--*/
 .bg-nav{
     background-color: #95a09a;
 }
@@ -107,8 +104,7 @@
     color: #95a09a;
 }
 
-/*ESTILOS FOOTER*/
-
+/*--ESTILOS FOOTER--*/
 .logo-footer{
     width: 17%;
     margin-top: 35px;
@@ -117,16 +113,15 @@
     background-color: #f7f8f2;
     color: #f7f8f2;
 }
-.icono-footer-dark{
+.icono-footer{
     background-color: #f7f8f2;
     width: 5%;
 }
 
-/*ESTILOS GENERALES*/
+/*--ESTILOS GENERALES--*/
 .body{
     background-color: #f7f8f2;
 }
-
 h1{
     font-family: 'adam';
     font-size:5m;
@@ -142,13 +137,18 @@ h1{
     text-align: center;
 }
 
-/*ESTILOS DEL INDEX*/
+/*--ESTILOS DEL INDEX--*/
 .grid{
     margin: 0;
     padding: 0;
 }
-.contenedor{
-    margin-right: 0;
+.bg-portada{
+    background-image: url(../assets/portada.jpg);
+    background-size: cover;
+    height: 540px;
+    padding: 0;
+    margin: 0;
+    position: relative;
 }
 .frase{
     display: flex;
@@ -161,34 +161,45 @@ h1{
     left: 25%;
     background: none;
 }
-.img-portada{
-    background-image: url(../assets/portada.jpg);
-    background-size: cover;
-    height: 540px;
-    padding: 0;
-    margin: 0;
-    position: relative;
-}
-.section-footer{
+.footer{
     position: absolute;
     bottom: 0;
     background-color:  transparent;
     margin-bottom: 5px;
 }
-.contenedor-iconos{
+.footer__contenedor{
     margin-left: 42px;
     background-color: transparent;
 }
-.contenedor-enlace{
+.footer__contenedor__enlace{
     background-color: transparent;
     color: transparent;
 }
-.icono-footer{
+.footer__contenedor__enlace__icono{
     background-color:transparent;
     width: 11%;
 }
 
-/*ESTILOS DE SERVICIOS*/
+/*--ESTILOS CONOCEME--*/
+.foto-frente__img{
+    width: 100%;
+}
+.caja__img{
+    width: 95%;
+    padding: 0;
+}
+.p-padding{
+    padding-top: 30px;
+}
+.caja__resumen{
+    background-color: #f0e3db;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/*--ESTILOS DE SERVICIOS--*/
 .h2-servicios {
     font-weight:600;
     font-size: 0.8rem;
@@ -212,8 +223,8 @@ h1{
     text-align: justify;
 }
 
-/*ESTILOS PORTAFOLIO*/
-.card-img{
+/*--ESTILOS PORTAFOLIO--*/
+.img-portafolio{
     width: 90%;
     border-radius: 4%;
 }
@@ -224,26 +235,7 @@ h1{
     font-size: larger;
 }
 
-/*ESTILOS CONOCEME*/
-.img-central{
-    width: 100%;
-}
-.img-conoceme{
-    width: 95%;
-    padding: 0;
-}
-.p-padding{
-    padding-top: 30px;
-}
-.p-conoceme{
-    background-color: #f0e3db;
-    font-family: 'Indie Flower', cursive;
-    font-style: italic;
-    text-align: center;
-    font-size: 1.1rem;
-}
-
-/*ESTILOS CONTACTO*/
+/*--ESTILOS CONTACTO--*/
 .p-contacto{
     font-family: 'Indie Flower', cursive;
     font-size: 1.1rem;
@@ -262,7 +254,7 @@ h1{
     background-color: #bdd2c1;
 }
 
-/*MEDIA QUERIES - INDEX*/
+/*--MEDIA QUERIES - INDEX--*/
 @media (min-width:300px) and (max-width:575px) {
     .frase{
         font-size:0.7em;
@@ -270,13 +262,13 @@ h1{
         left: 20%;
         margin-top: 15px;
     }
-    .img-portada{
+    .bg-portada{
         background-image: url(../assets/portada2.jpg);
     }
-    .contenedor-iconos{
+    .footer__contenedor{
         margin-left: 300px;
     }
-    .icono-footer{
+    .footer__contenedor__enlace__icono{
         width: 15%;
     }
 }
@@ -288,7 +280,7 @@ h1{
     }
 }
 
-/*MEDIA QUERIES - CONOCEME*/
+/*--MEDIA QUERIES - CONOCEME--*/
 @media (min-width:300px) and (max-width:575px) {
     .grid__container{
         grid-template-columns: 1fr 1fr;
@@ -306,7 +298,6 @@ h1{
         'detalle5       detalle5';
     }
 }    
-
 @media (min-width:300px) and (max-width:992px) {
     .foto_frente {
         display: flex;
@@ -352,7 +343,6 @@ h1{
         'detalle4       detalle4'
         'detalle5       detalle5';
 }
-
 @media (min-width:768px) and (max-width:992px) {  
     .grid__container{
         grid-template-rows: auto auto auto 170px auto 170px auto auto;
