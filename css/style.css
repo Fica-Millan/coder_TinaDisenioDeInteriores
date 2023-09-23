@@ -129,6 +129,9 @@ h1{
     margin: 0;
     padding: 0;
 }
+.contenedor{
+    margin-right: 0;
+}
 .frase{
     display: flex;
     text-align: center;
@@ -247,6 +250,7 @@ h1{
         font-size:0.7em;
         top: 0%;
         left: 20%;
+        margin-top: 15px;
     }
     .img-portada{
         background-image: url(../assets/portada2.jpg);
@@ -256,6 +260,13 @@ h1{
     }
     .icono-footer{
         width: 15%;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px) {
+    .frase{
+        font-size:1em;
+        left: 15%;
     }
 }
 
