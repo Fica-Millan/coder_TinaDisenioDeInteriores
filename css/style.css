@@ -21,8 +21,8 @@
 /*GRID - CONOCEME*/
 .grid__container{
     display: grid;
-    grid-template-columns: 35% 35% auto;
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 170px auto 252px auto auto;
     grid-template-areas: 
     'detalle1   detalle1    foto_frente'
     'detalle2   detalle2    detalle2'
@@ -30,44 +30,59 @@
     'detalle3   detalle3    detalle3'
     'foto_3     resumen_2   foto_4'
     'detalle4   detalle4    detalle4'
-    'detalle5   detalle5    detalle5'
+    'detalle5   detalle5    detalle5';
+    margin: 15px;
 }
 
+.caja{
+    margin: 15px;
+}
 .descripcion_1{
     grid-area: detalle1;
 }
 .foto_frente{
     grid-area: foto_frente;
+    width: 93%;
 }
 .descripcion_2{
     grid-area: detalle2;
+    margin-bottom: 0;
 }
 .foto_1{
     grid-area: foto_1;
+    width: 100%;
 }
 .foto_2{
     grid-area: foto_2;
+    width: 100%;
 }
 .resumen_1{
     grid-area: resumen_1;
+    padding-top: 6px;
 }
 .descripcion_3{
     grid-area: detalle3;
+    padding-top: 43px;
+    margin-bottom: 0;
 }
 .foto_3{
     grid-area: foto_3;
+    width: 100%;
 }
 .resumen_2{
     grid-area: resumen_2;
+    padding-top: 8px;
 }
 .foto_4{
     grid-area: foto_4;
+    width: 98%;
 }
 .descripcion_4{
     grid-area: detalle4;
 }
 .descripcion_5{
     grid-area: detalle5;
+    margin-top: 0;
 }
 
 
@@ -108,6 +123,9 @@
 }
 
 /*ESTILOS GENERALES*/
+.body{
+    background-color: #f7f8f2;
+}
 
 h1{
     font-family: 'adam';
@@ -208,7 +226,7 @@ h1{
 
 /*ESTILOS CONOCEME*/
 .img-central{
-    width: 120%;
+    width: 100%;
 }
 .img-conoceme{
     width: 95%;
@@ -245,7 +263,7 @@ h1{
 }
 
 /*MEDIA QUERIES - INDEX*/
-@media (min-width:300px) and (max-width:576px) {
+@media (min-width:300px) and (max-width:575px) {
     .frase{
         font-size:0.7em;
         top: 0%;
@@ -263,7 +281,7 @@ h1{
     }
 }
 
-@media (min-width:577px) and (max-width:767px) {
+@media (min-width:576px) and (max-width:767px) {
     .frase{
         font-size:1em;
         left: 15%;
@@ -271,7 +289,91 @@ h1{
 }
 
 /*MEDIA QUERIES - CONOCEME*/
-@media (min-width:300px) and (max-width:576px) {
-    
+@media (min-width:300px) and (max-width:575px) {
+    .grid__container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-areas: 
+        'detalle1       detalle1'
+        'foto_frente    foto_frente'
+        'detalle2       detalle2'
+        'foto_1         foto_2'
+        'resumen_1      resumen_1'
+        'detalle3       detalle3'
+        'foto_3         foto_4'
+        'resumen_2      resumen_2 '
+        'detalle4       detalle4'
+        'detalle5       detalle5';
+    }
+}    
 
+@media (min-width:300px) and (max-width:992px) {
+    .foto_frente {
+        display: flex;
+        width: 50%;
+        justify-content: center;
+    }
+    .foto_2 {
+        width: 96%;
+    }
+    .descripcion_3 {
+        padding-top: 0; 
+    }
+    .resumen_1 {
+        margin-bottom: 0;
+    }
+    .foto_3 {
+        width: 91%;
+    }
+    .p-padding {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .foto_4 {
+        width: 93%;
+    }
+    .p-conoceme {
+        font-size: 1rem;
+    }
+}
+@media (min-width:576px) and (max-width:767px) {
+    .grid__container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 170px auto auto auto auto auto auto;
+        grid-template-areas: 
+        'detalle1       detalle1'
+        'foto_frente    foto_frente'
+        'detalle2       detalle2'
+        'foto_1         foto_2'
+        'resumen_1      resumen_1'
+        'detalle3       detalle3'
+        'foto_3         foto_4'
+        'resumen_2      resumen_2 '
+        'detalle4       detalle4'
+        'detalle5       detalle5';
+}
+
+@media (min-width:768px) and (max-width:992px) {  
+    .grid__container{
+        grid-template-rows: auto auto auto 170px auto 170px auto auto;
+        grid-template-areas: 
+        'detalle1       detalle1        detalle1'
+        'foto_frente    foto_frente     foto_frente'
+        'detalle2       detalle2        detalle2'
+        'foto_1         foto_2          resumen_1'
+        'detalle3       detalle3        detalle3'
+        'foto_3         resumen_2       foto_4'
+        'detalle4       detalle4        detalle4'
+        'detalle5       detalle5        detalle5';
+    }
+    .p-conoceme {
+        font-size: 0.7rem;
+    }
+    .resumen_1 {
+        padding-top: 0;
+        width: 90%;
+    }
+    .descripcion_2 {
+        margin-top: 0;
+    }
 }
