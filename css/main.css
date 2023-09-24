@@ -3,8 +3,8 @@
   font-family: "adam";
   font-size: x-large;
   background-color: #f7f8f2;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 /*--GRID - CONOCEME--*/
@@ -155,8 +155,8 @@ h1 {
   background-image: url(../assets/portada.jpg);
   background-size: cover;
   height: 540px;
-  padding: 0;
   margin: 0;
+  padding: 0;
   position: relative;
 }
 

@@ -13,7 +13,6 @@
     border: none;
 }
 .font-nav{
-    font-family: $fuente-ppal;
-    font-size: x-large;
+    @include font-and-size; 
     color: $verde-oscuro;
 }

@@ -22,9 +22,7 @@
 .foto-frente{
     grid-area: foto_frente;
     width: 93%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-grid-conoceme (center, center);
     margin-top: 0;
 }
 .descripcion_2{

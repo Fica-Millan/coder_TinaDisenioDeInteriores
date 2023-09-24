@@ -1,8 +1,6 @@
 /*--RESET--*/
 *{
-    font-family: $fuente-ppal;
-    font-size: x-large;
+    @include font-and-size;
     background-color: $tiza;
-    padding: 0;
-    margin: 0;
+    @include padding-margin-0;
 }

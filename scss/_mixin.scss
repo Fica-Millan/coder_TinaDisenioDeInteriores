@@ -1,0 +1,16 @@
+@mixin font-and-size {
+    font-family: $fuente-ppal;
+    font-size: x-large;
+  }
+
+@mixin padding-margin-0{
+    margin: 0;
+    padding: 0;
+}
+
+@mixin flex-grid-conoceme ($j-c, $a-i){
+    display: flex;
+    justify-content: $j-c;
+    align-items: $a-i;
+}
+
