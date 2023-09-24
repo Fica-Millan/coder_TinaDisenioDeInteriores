@@ -204,6 +204,9 @@ h1{
     padding-top: 9px;
     padding-bottom: 9px;
 }
+.autor{
+    margin-top: 27px;
+}
 
 /*--ESTILOS DE SERVICIOS--*/
 .h2-servicios {
@@ -260,19 +263,19 @@ h1{
     background-color: #bdd2c1;
 }
 
-/*--ANIMACION TITULOS Y EN FRASE CONTACTO--*/
+/*--ANIMACION EN TITULOS Y EN FRASE CONTACTO--*/
 .animacion{
     overflow: hidden;
 }
 .animacion p{
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 6s steps(40, end);
+    animation: typing 8s steps(60, end);
 }
 .animacion h1{
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 6s steps(40, end);
+    animation: typing 8s steps(60, end);
 }
 @keyframes typing {
     from {
