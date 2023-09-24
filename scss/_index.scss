@@ -1,0 +1,45 @@
+/*--ESTILOS DEL INDEX--*/
+.grid{
+    margin: 0;
+    padding: 0;
+}
+.bg-portada{
+    background-image: url(../assets/portada.jpg);
+    background-size: cover;
+    height: 540px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.frase{
+    display: flex;
+    text-align: center;
+    font-family:$fuente-secu;
+    font-size:1.1em;
+    color: $verde-Frase;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background: none;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color:  transparent;
+    margin-bottom: 5px;
+
+    &__contenedor{
+        margin-left: 42px;
+        background-color: transparent;
+
+        &__enlace{
+            background-color: transparent;
+            color: transparent;
+            
+            &__icono{
+                background-color:transparent;
+                width: 11%;
+            }
+        }
+    }       
+}

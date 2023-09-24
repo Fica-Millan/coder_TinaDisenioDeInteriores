@@ -1,0 +1,23 @@
+/*--ESTILOS DE SERVICIOS--*/
+.h2-servicios {
+    font-weight:600;
+    font-size: 0.8rem;
+    text-align:center;   
+    color: $verde-oscuro;
+    background-color: $rosa;
+}
+.row-servicios{
+    margin: 5px;
+    padding: 0;
+}
+.col-servicios{
+    padding: 0;
+}
+.img-servicios {
+    width: 100%;
+    padding: 5px;
+}
+.p-servicios{
+    font-size: x-large;
+    text-align: justify;
+}

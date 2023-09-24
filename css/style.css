@@ -327,7 +327,7 @@ h1{
         'resumen_1      resumen_1'
         'detalle3       detalle3'
         'foto_3         foto_4'
-        'resumen_2      resumen_2 '
+        'resumen_2      resumen_2'
         'detalle4       detalle4'
         'detalle5       detalle5';
     }
@@ -378,18 +378,6 @@ h1{
         'detalle5       detalle5';
 }
 @media (min-width:768px) and (max-width:992px) {  
-    /*.grid__container{
-        grid-template-rows: auto auto auto 170px auto 170px auto auto;
-        grid-template-areas: 
-        'detalle1       detalle1        detalle1'
-        'foto_frente    foto_frente     foto_frente'
-        'detalle2       detalle2        detalle2'
-        'foto_1         foto_2          resumen_1'
-        'detalle3       detalle3        detalle3'
-        'foto_3         resumen_2       foto_4'
-        'detalle4       detalle4        detalle4'
-        'detalle5       detalle5        detalle5';
-    }*/
     .p-conoceme {
         font-size: 0.7rem;
     }

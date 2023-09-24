@@ -1,0 +1,27 @@
+/*--ANIMACION EN TITULOS Y EN FRASE CONTACTO--*/
+.animacion{
+    overflow: hidden;
+
+    & p{
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 8s steps(60, end);
+    }
+
+    & h1{
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 8s steps(60, end);
+    }
+}
+
+@keyframes typing {
+    from {
+      width: 0; 
+      opacity: 0;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }

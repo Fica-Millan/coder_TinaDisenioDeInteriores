@@ -1,0 +1,69 @@
+/*--GRID - CONOCEME--*/
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto 210px auto 260px auto auto;
+    grid-template-areas: 
+    'detalle1   detalle1    foto_frente'
+    'detalle2   detalle2    detalle2'
+    'foto_1     foto_2      resumen_1'
+    'detalle3   detalle3    detalle3'
+    'foto_3     resumen_2   foto_4'
+    'detalle4   detalle4    detalle4'
+    'detalle5   detalle5    detalle5';
+    margin: 15px;
+}
+.caja{
+    margin: 15px;
+}
+.descripcion_1{
+    grid-area: detalle1;
+}
+.foto-frente{
+    grid-area: foto_frente;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+.descripcion_2{
+    grid-area: detalle2;
+    margin-bottom: 0;
+}
+.foto_1{
+    grid-area: foto_1;
+    width: 100%;
+}
+.foto_2{
+    grid-area: foto_2;
+    width: 100%;
+}
+.resumen_1{
+    grid-area: resumen_1;
+    padding-top: 6px;
+}
+.descripcion_3{
+    grid-area: detalle3;
+    padding-top: 43px;
+    margin-bottom: 0;
+}
+.foto_3{
+    grid-area: foto_3;
+    width: 100%;
+}
+.resumen_2{
+    grid-area: resumen_2;
+    padding-top: 8px;
+}
+.foto_4{
+    grid-area: foto_4;
+    width: 98%;
+}
+.descripcion_4{
+    grid-area: detalle4;
+}
+.descripcion_5{
+    grid-area: detalle5;
+    margin-top: 0;
+}

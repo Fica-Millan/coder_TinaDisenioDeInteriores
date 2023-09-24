@@ -3,8 +3,22 @@
 
 // VARIABLES
 @import'./variables';
+@import './reset';
+//ver el mixin
+@import './grid-conoceme';
 
 // LAYAUOT 
-@import'./cabeza';
+@import'./header';
+@import './footer';
+@import './generales';
+@import './index';
+@import './conoceme';
+@import './servicios';
+@import './portafolio';
+@import './contacto';
+@import './animaciones';
+
 
 // MEDIA QUERIES
+@import'./mq-index';
+@import './mq-conoceme';
