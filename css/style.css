@@ -22,7 +22,7 @@
 .grid__container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto 170px auto 252px auto auto;
+    grid-template-rows: auto auto 210px auto 260px auto auto;
     grid-template-areas: 
     'detalle1   detalle1    foto_frente'
     'detalle2   detalle2    detalle2'
@@ -42,6 +42,10 @@
 .foto-frente{
     grid-area: foto_frente;
     width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
 }
 .descripcion_2{
     grid-area: detalle2;
@@ -197,6 +201,8 @@ h1{
     font-style: italic;
     text-align: center;
     font-size: 1.1rem;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 /*--ESTILOS DE SERVICIOS--*/
@@ -236,7 +242,7 @@ h1{
 }
 
 /*--ESTILOS CONTACTO--*/
-.p-contacto{
+.contacto__p{
     font-family: 'Indie Flower', cursive;
     font-size: 1.1rem;
     margin-top: 50px;
@@ -253,6 +259,31 @@ h1{
     border: none;
     background-color: #bdd2c1;
 }
+
+/*--ANIMACION TITULOS Y EN FRASE CONTACTO--*/
+.animacion{
+    overflow: hidden;
+}
+.animacion p{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(40, end);
+}
+.animacion h1{
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(40, end);
+}
+@keyframes typing {
+    from {
+      width: 0; 
+      opacity: 0;
+    }
+    to {
+      width: 100%;
+      opacity: 1;
+    }
+  }
 
 /*--MEDIA QUERIES - INDEX--*/
 @media (min-width:300px) and (max-width:575px) {
@@ -299,10 +330,10 @@ h1{
     }
 }    
 @media (min-width:300px) and (max-width:992px) {
-    .foto_frente {
+    .foto-frente__img {
         display: flex;
         width: 50%;
-        justify-content: center;
+        max-width: 100%;
     }
     .foto_2 {
         width: 96%;
@@ -327,7 +358,7 @@ h1{
         font-size: 1rem;
     }
 }
-@media (min-width:576px) and (max-width:767px) {
+@media (min-width:576px) and (max-width:992px) {
     .grid__container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto 170px auto auto auto auto auto auto;
@@ -344,7 +375,7 @@ h1{
         'detalle5       detalle5';
 }
 @media (min-width:768px) and (max-width:992px) {  
-    .grid__container{
+    /*.grid__container{
         grid-template-rows: auto auto auto 170px auto 170px auto auto;
         grid-template-areas: 
         'detalle1       detalle1        detalle1'
@@ -355,7 +386,7 @@ h1{
         'foto_3         resumen_2       foto_4'
         'detalle4       detalle4        detalle4'
         'detalle5       detalle5        detalle5';
-    }
+    }*/
     .p-conoceme {
         font-size: 0.7rem;
     }
