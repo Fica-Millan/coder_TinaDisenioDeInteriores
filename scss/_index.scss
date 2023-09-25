@@ -11,8 +11,7 @@
 }
 .frase{
     display: flex;
-    text-align: center;
-    font-family:$fuente-secu;
+    @extend %frase-style;
     color: $verde-Frase;
     position: absolute;
     top: 15%;

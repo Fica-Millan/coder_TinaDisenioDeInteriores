@@ -5,13 +5,8 @@
     & p{
         white-space: nowrap;
         overflow: hidden;
-        animation: typing 8s steps(60, end);
-    }
-
-    & h1{
-        white-space: nowrap;
-        overflow: hidden;
-        animation: typing 8s steps(60, end);
+        animation: typing 5s steps(70, end);
+        animation-iteration-count: infinite;
     }
 }
 

@@ -18,6 +18,12 @@
   font-size: 14px;
 }
 
+.caja__resumen, .frase {
+  font-family: "Indie Flower", cursive;
+  font-style: italic;
+  text-align: center;
+}
+
 /*--RESET--*/
 * {
   font-family: "adam";
@@ -182,8 +188,6 @@ h1 {
 
 .frase {
   display: flex;
-  text-align: center;
-  font-family: "Indie Flower", cursive;
   color: #5e615f;
   position: absolute;
   top: 15%;
@@ -226,9 +230,6 @@ h1 {
 
 .caja__resumen {
   background-color: #f0e3db;
-  font-family: "Indie Flower", cursive;
-  font-style: italic;
-  text-align: center;
   font-size: 1.1rem;
   padding-top: 9px;
   padding-bottom: 9px;
@@ -304,12 +305,8 @@ h1 {
 .animacion p {
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 8s steps(60, end);
-}
-.animacion h1 {
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 8s steps(60, end);
+  animation: typing 5s steps(70, end);
+  animation-iteration-count: infinite;
 }
 
 @keyframes typing {

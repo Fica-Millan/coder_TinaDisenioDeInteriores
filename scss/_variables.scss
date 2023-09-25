@@ -25,6 +25,13 @@ $font-sizes:(
 
 //MAPS CON GET
 $bg-color:(
-    rosa: #f0e3db,
-    tiza: #f7f8f2,
+    rosa: $rosa,
+    tiza: $tiza,
 );
+
+//EXTEND
+%frase-style{
+    font-family: $fuente-secu;
+    font-style: italic;
+    text-align: center;
+}

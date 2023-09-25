@@ -17,6 +17,12 @@
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
+    <!--ANIMATE-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--AOS ANIMATE-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--CSS-->
     <link rel="stylesheet" href="../css/main.css">
 
@@ -57,7 +63,7 @@
 
         <main>
             <!--TITULO DE LA SECCION-->
-            <div class="animacion">
+            <div class="animate__animated animate__zoomIn">
                 <h1>Conoceme</h1> 
             </div>
 
@@ -81,7 +87,7 @@
                 <div class="caja foto_2">
                     <img class="caja__img" src="../assets/c_empresaria_02.jpg" alt="Foto de la diseñadora mirando unos papeles">
                 </div>
-                <div class="caja resumen_1">
+                <div class="caja resumen_1" data-aos="zoom-in">
                     <p class="caja__resumen">Mi pasión por transformar espacios y plasmar sueños, me impulsa a liderar proyectos únicos que reflejan la esencia de mis clientes.</p>
                 </div>
 
@@ -94,7 +100,7 @@
                 <div class="caja foto_3">
                     <img class="caja__img" src="../assets/c_trabajando_01.jpg" alt="Foto de una mano haciendo un boceto en papel">
                 </div>
-                <div class="caja resumen_2">
+                <div class="caja resumen_2" data-aos="zoom-in">
                     <p class="caja__resumen">Cada proyecto es un desafío que me permite dejar una huella positiva en el mundo del diseño y crear espacios significativos colaborando con vos.</p>
                 </div>
                 <div class="caja foto_4">
@@ -138,6 +144,13 @@
 
         <!--SCRIPT DE BOOTSTRAP-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+        <!--SCRIPT AOS ANIMATE-->   
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+        <script>
+            AOS.init();
+        </script>
+    
     </div>  
 </body>
 

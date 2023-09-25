@@ -11,9 +11,7 @@
 }
 .caja__resumen{
     background-color: map-get($bg-color, rosa);
-    font-family: $fuente-secu;
-    font-style: italic;
-    text-align: center;
+    @extend %frase-style;
     font-size: 1.1rem;
     padding-top: 9px;
     padding-bottom: 9px;
