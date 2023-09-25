@@ -1,3 +1,23 @@
+.fz-xxl {
+  font-size: 48px;
+}
+
+.fz-xl {
+  font-size: 28px;
+}
+
+.fz-md {
+  font-size: 24px;
+}
+
+.fz-sm {
+  font-size: 16px;
+}
+
+.fz-xs {
+  font-size: 14px;
+}
+
 /*--RESET--*/
 * {
   font-family: "adam";
@@ -164,7 +184,6 @@ h1 {
   display: flex;
   text-align: center;
   font-family: "Indie Flower", cursive;
-  font-size: 1.1em;
   color: #5e615f;
   position: absolute;
   top: 15%;
@@ -222,7 +241,6 @@ h1 {
 /*--ESTILOS DE SERVICIOS--*/
 .h2-servicios {
   font-weight: 600;
-  font-size: 0.8rem;
   text-align: center;
   color: #95a09a;
   background-color: #f0e3db;
@@ -243,7 +261,6 @@ h1 {
 }
 
 .p-servicios {
-  font-size: x-large;
   text-align: justify;
 }
 
@@ -257,13 +274,11 @@ h1 {
   font-weight: 600;
   text-align: center;
   color: #95a09a;
-  font-size: larger;
 }
 
 /*--ESTILOS CONTACTO--*/
 .contacto__p {
   font-family: "Indie Flower", cursive;
-  font-size: 1.1rem;
   margin-top: 50px;
   margin-bottom: 0;
   margin-left: 80px;

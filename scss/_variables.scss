@@ -7,3 +7,18 @@ $verde-H1: #5e615f99;
 $verde-Frase: #5e615f;
 $fuente-ppal: 'adam';
 $fuente-secu:'Indie Flower', cursive;
+
+//MAPS
+$font-sizes:(
+    xxl: 48px,
+    xl: 28px,
+    md: 24px,
+    sm: 16px,
+    xs: 14px,
+);   
+
+@each $size, $num in $font-sizes{
+    .fz-#{$size}{
+        font-size: $num;
+    }
+};
