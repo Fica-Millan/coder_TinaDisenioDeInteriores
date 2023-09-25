@@ -4,10 +4,10 @@
     margin-top: 35px;
 }
 .a-footer{
-    background-color: $tiza;
+    background-color: map-get($bg-color, tiza);
     color: $tiza;
 }
 .icono-footer{
-    background-color: $tiza;
+    background-color: map-get($bg-color, tiza);
     width: 5%;
 }

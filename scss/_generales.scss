@@ -1,6 +1,6 @@
 /*--ESTILOS GENERALES--*/
 .body{
-    background-color: $tiza;
+    background-color: map-get($bg-color, tiza);
 }
 h1{
     font-family: $fuente-ppal;

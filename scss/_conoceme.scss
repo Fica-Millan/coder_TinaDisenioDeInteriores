@@ -10,7 +10,7 @@
     padding-top: 30px;
 }
 .caja__resumen{
-    background-color: $rosa;
+    background-color: map-get($bg-color, rosa);
     font-family: $fuente-secu;
     font-style: italic;
     text-align: center;
