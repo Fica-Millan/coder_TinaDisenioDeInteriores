@@ -120,8 +120,13 @@
   background-color: #95a09a;
 }
 
+.contenedor-header {
+  padding: 0;
+}
+
 .contenedor-nav {
   padding: 0;
+  padding-left: 27px;
 }
 
 .logo-nav {
@@ -131,6 +136,10 @@
 .boton-nav {
   color: #95a09a;
   border: none;
+}
+
+.contenedor-ul {
+  padding-right: 20px;
 }
 
 .font-nav {
@@ -156,10 +165,9 @@
 }
 
 /*--ESTILOS GENERALES--*/
-.body {
-  background-color: #f7f8f2;
-}
-
+/*.body{
+    background-color: map-get($bg-color, tiza);
+}*/
 h1 {
   font-family: "adam";
   font-size: 5m;

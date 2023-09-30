@@ -2,8 +2,12 @@
 .bg-nav{
     background-color: $verde-oscuro;
 }
+.contenedor-header{
+    padding: 0;
+}
 .contenedor-nav{
     padding: 0;
+    padding-left: 27px;
 }
 .logo-nav{
     width: 65%;
@@ -11,6 +15,9 @@
 .boton-nav{
     color: $verde-oscuro;
     border: none;
+}
+.contenedor-ul{
+    padding-right: 20px;
 }
 .font-nav{
     @include font-and-size; 

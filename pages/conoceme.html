@@ -34,36 +34,40 @@
 </head>
 
 <body>
-    <div class="body">
-        <header class="cabeza">
-            <nav class="navbar navbar-expand-lg bg-nav">
-                <div class="container-fluid contenedor-nav">
+    <div class="container-fluid grid">
+        <div class="row">
+            <div class="col contenedor-header">
+              <header>
+                <nav class="navbar navbar-expand-lg bg-nav">
+                  <div class="container-fluid contenedor-nav">
                     <a class="navbar-brand" href="../index.html"><img class="logo-nav"  src="../assets/logo.jpg" alt="Logo Tina | Diseño de Interiores"></a>
                     <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                      <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end">
+                    <div class="collapse navbar-collapse contenedor-ul" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end">
                         <li class="nav-item">
-                            <a class="nav-link font-nav" href="../index.html">INICIO</a>
+                          <a class="nav-link font-nav" href="../index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-nav" href="../pages/conoceme.html">CONOCEME</a>
+                          <a class="nav-link font-nav" href="../pages/conoceme.html">CONOCEME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-nav" href="../pages/servicios.html">SERVICIOS</a>
+                          <a class="nav-link font-nav" href="../pages/servicios.html">SERVICIOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-nav" href="../pages/portafolio.html">PORTAFOLIO</a>
+                          <a class="nav-link font-nav" href="../pages/portafolio.html">PORTAFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link font-nav" href="../pages/contacto.html">CONTACTO</a>
+                          <a class="nav-link font-nav" href="../pages/contacto.html">CONTACTO</a>
                         </li>
-                        </ul>
+                      </ul>
                     </div>
-                </div>    
-            </nav>
-        </header>
+                  </div>
+                </nav>
+              </header>
+            </div>
+        </div>
 
         <main>
             <!--TITULO DE LA SECCION-->
@@ -145,17 +149,17 @@
                 <p>Code & Desing by FiCA</p>  
             </div>
         </footer>
+    </div> 
 
-        <!--SCRIPT DE BOOTSTRAP-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--SCRIPT DE BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     
-        <!--SCRIPT AOS ANIMATE-->   
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
-        <script>
-            AOS.init();
-        </script>
-    
-    </div>  
+    <!--SCRIPT AOS ANIMATE-->   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+        AOS.init();
+    </script>
+ 
 </body>
 
 </html>
