@@ -33,6 +33,12 @@
   padding: 0;
 }
 
+/*--ENLACE ADAM FONT--*/
+@font-face {
+  font-family: "adam";
+  src: url(../fonts/Adam-Bold.ttf);
+  font-display: swap;
+}
 /*--GRID - CONOCEME--*/
 .grid__container {
   display: grid;
@@ -119,7 +125,7 @@
 }
 
 .logo-nav {
-  width: 28%;
+  width: 65%;
 }
 
 .boton-nav {
@@ -169,6 +175,10 @@ h1 {
 
 .text-aling-center {
   text-align: center;
+}
+
+strong {
+  text-shadow: 1px 1px 1px gray;
 }
 
 /*--ESTILOS DEL INDEX--*/

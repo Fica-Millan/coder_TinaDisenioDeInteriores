@@ -4,3 +4,10 @@
     background-color: map-get($bg-color, tiza);
     @include padding-margin-0;
 }
+
+/*--ENLACE ADAM FONT--*/
+@font-face {
+    font-family:'adam';
+    src: url(../fonts/Adam-Bold.ttf);
+    font-display: swap;
+}
