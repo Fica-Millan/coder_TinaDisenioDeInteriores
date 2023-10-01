@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
   <head>
     <meta charset="UTF-8">
-    <meta html-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--SEO-->
@@ -27,280 +27,306 @@
     <!--CSS-->
     <link rel="stylesheet" href="../css/main.css">
 
+    <!--TITULO DE LA PAGINA-->
     <title>Portafolio - Tina | Diseño de Interiores</title>
   </head>
 
   <body>
-    <div class="container-fluid grid">
-      <div class="row">
-        <div class="col contenedor-header">
-          <header>
-            <nav class="navbar navbar-expand-lg bg-nav">
-              <div class="container-fluid contenedor-nav">
-                <a class="navbar-brand" href="../index.html"><img class="logo-nav"  src="../assets/logo.jpg" alt="Logo Tina | Diseño de Interiores"></a>
-                <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse contenedor-ul" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end">
-                    <li class="nav-item">
-                      <a class="nav-link font-nav" href="../index.html">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-nav" href="../pages/conoceme.html">CONOCEME</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-nav" href="../pages/servicios.html">SERVICIOS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-nav" href="../pages/portafolio.html">PORTAFOLIO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-nav" href="../pages/contacto.html">CONTACTO</a>
-                    </li>
-                  </ul>
+    <header>
+      <!--BARRA DE NAVEGACION-->
+      <div class="col contenedor-header">
+        <nav class="navbar navbar-expand-lg bg-nav">
+          <div class="container-fluid contenedor-nav">
+            <!--LOGO DEL SITIO-->
+            <a class="navbar-brand" href="../index.html"><img class="logo-nav"  src="../assets/logo.webp" alt="Logo Tina | Diseño de Interiores"></a>
+            <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--MENU DE NAVEGACION-->
+            <div class="collapse navbar-collapse contenedor-ul" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end">
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="../pages/conoceme.html">CONOCEME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="../pages/servicios.html">SERVICIOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="../pages/portafolio.html">PORTAFOLIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link font-nav" href="../pages/contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>  
+    </header>
+
+    <main>
+      <div class="container">
+        <!--TITULO DE LA SECCION-->
+        <div class="row">
+          <div class="col animate__animated animate__zoomIn">
+            <h1>Portafolio Inspirador</h1>
+          </div>
+        </div>
+        <!--DESCRIPCION DE LA SECCION-->
+        <div class="row">
+          <div class="col">
+            <p class="text-aling-justify" >Explora nuestra obra. Descubre cómo hemos transformado espacios en experiencias visuales y funcionales.</p>
+          </div>
+        </div>
+
+        <!--SE PRESENTAN DIFERENTES PROYECTOS-->
+        <div class="row">
+          <!--PROYECTO ALVEAR-->
+          <div class="col-lg-6">
+            <div class="row">
+              <!--FOTOS EN CARRUSEL-->
+              <div id="carouselAlvear" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-portafolio" src="../assets/proy_alvear1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_alvear2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_alvear3.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
+                <!--BOTONES FOTO PREVIA-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlvear" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <!--BOTON FOTO SIGUIENTE-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselAlvear" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
-            </nav>
-          </header>
+            </div>
+
+            <!--NOMBRE DEL PROYECTO-->
+            <div class="row">
+              <h2 class="h2-portafolio fz-xl"> Proyecto Alvear</h2> 
+            </div>
+          </div>
+
+          <!--PROYECTO GUEMES-->
+          <div class="col-lg-6">
+            <div class="row">
+              <!--FOTOS EN CARRUSEL-->
+              <div id="carouselGuemes" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-portafolio" src="../assets/proy_guemes1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_guemes2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_guemes3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <!--BOTONES FOTO PREVIA-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGuemes" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <!--BOTON FOTO SIGUIENTE-->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGuemes" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+            <!--NOMBRE DEL PROYECTO-->
+            <div class="row">
+              <h2 class="h2-portafolio fz-xl">Proyecto Güemes</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!--PROYECTO JOSE MARTI-->
+          <div class="col-lg-6">
+            <div class="row">
+              <!--FOTOS EN CARRUSEL-->
+              <div id="carouselMarti" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-portafolio" src="../assets/proy_marti1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_marti2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_marti3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <!--BOTONES FOTO PREVIA-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarti" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <!--BOTON FOTO SIGUIENTE--> 
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMarti" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!--NOMBRE DEL PROYECTO-->
+            <div class="row">
+              <h2 class="h2-portafolio fz-xl">Proyecto Jose Marti</h2>
+            </div>
+          </div>
+
+          <!--PROYECTO VILLA ESPAÑA-->
+          <div class="col-lg-6">
+            <div class="row">
+              <!--FOTOS EN CARRUSEL-->
+              <div id="carouselEspaña" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-portafolio" src="../assets/proy_españa1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_españa2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_españa3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <!--BOTONES FOTO PREVIA-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselEspaña" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <!--BOTON FOTO SIGUIENTE--> 
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselEspaña" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!--NOMBRE DEL PROYECTO-->
+            <div class="row">
+              <h2 class="h2-portafolio fz-xl">Proyecto Villa España</h2> 
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <!--PROYECTO LA TACUARA-->
+          <div class="col-lg-6">
+            <div class="row">
+              <!--FOTOS EN CARRUSEL-->
+              <div id="carouselTacuara" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-portafolio" src="../assets/proy_tacuara1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_tacuara2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_tacuara3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <!--BOTONES FOTO PREVIA-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTacuara" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <!--BOTON FOTO SIGUIENTE--> 
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselTacuara" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!--NOMBRE DEL PROYECTO-->
+            <div class="row">
+              <h2 class="h2-portafolio fz-xl">Proyecto La Tacuara</h2>  
+            </div>
+          </div>
+
+          <!--PROYECTO ROSA CHIC-->
+          <div class="col-lg-6">
+            <div class="row">
+              <!--FOTOS EN CARRUSEL-->
+              <div id="carouselChic" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-portafolio" src="../assets/proy_chic1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_chic2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-portafolio" src="../assets/proy_chic3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <!--BOTONES FOTO PREVIA-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselChic" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <!--BOTON FOTO SIGUIENTE-->   
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselChic" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!--NOMBRE DEL PROYECTO-->
+            <div class="row">
+              <h2 class="h2-portafolio fz-xl">Proyecto Rosa Chic</h2>  
+            </div>
+          </div>
         </div>
       </div>
+    </main>  
 
-      <main>
-        <div class="container">
-          <!--TITULO DE LA SECCION-->
-          <div class="row">
-            <div class="col animate__animated animate__zoomIn">
-              <h1>Portafolio Inspirador</h1>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <p class="text-aling-justify" >Explora nuestra obra. Descubre cómo hemos transformado espacios en experiencias visuales y funcionales.</p>
-            </div>
-          </div>
-
-          <!--SE PRESENTAN DIFERENTES PROYECTOS-->
-          <div class="row">
-            <!--PROYECTO ALVEAR-->
-            <div class="col-lg-6">
-              <div class="row">
-                <div id="carouselAlvear" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-portafolio" src="../assets/proy_alvear1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_alvear2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_alvear3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselAlvear" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselAlvear" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-
-              <div class="row">
-                <h2 class="h2-portafolio fz-xl"> Proyecto Alvear</h2> 
-              </div>
-            </div>
-
-            <!--PROYECTO GUEMES-->
-            <div class="col-lg-6">
-              <div class="row">
-                <div id="carouselGuemes" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-portafolio" src="../assets/proy_guemes1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_guemes2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_guemes3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselGuemes" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselGuemes" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <h2 class="h2-portafolio fz-xl">Proyecto Güemes</h2>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <!--PROYECTO JOSE MARTI-->
-            <div class="col-lg-6">
-              <div class="row">
-                <div id="carouselMarti" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-portafolio" src="../assets/proy_marti1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_marti2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_marti3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselMarti" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselMarti" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <h2 class="h2-portafolio fz-xl">Proyecto Jose Marti</h2>
-              </div>
-            </div>
-
-            <!--PROYECTO VILLA ESPAÑA-->
-            <div class="col-lg-6">
-              <div class="row">
-                <div id="carouselEspaña" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-portafolio" src="../assets/proy_españa1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_españa2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_españa3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselEspaña" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselEspaña" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <h2 class="h2-portafolio fz-xl">Proyecto Villa España</h2> 
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <!--PROYECTO LA TACUARA-->
-            <div class="col-lg-6">
-              <div class="row">
-                <div id="carouselTacuara" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-portafolio" src="../assets/proy_tacuara1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_tacuara2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_tacuara3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTacuara" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselTacuara" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <h2 class="h2-portafolio fz-xl">Proyecto La Tacuara</h2>  
-              </div>
-            </div>
-            <!--PROYECTO ROSA CHIC-->
-            <div class="col-lg-6">
-              <div class="row">
-                <div id="carouselChic" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="img-portafolio" src="../assets/proy_chic1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_chic2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="img-portafolio" src="../assets/proy_chic3.jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselChic" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselChic" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-              </div>
-              <div class="row">
-                <h2 class="h2-portafolio fz-xl">Proyecto Rosa Chic</h2>  
-              </div>
+    <footer>
+      <div class="container">
+        <!--LOGO Y ENLACES-->
+        <div class="row">
+          <div class="col text-aling-center">                    
+            <img class="logo-footer" src="../assets/logo-pie.png" alt="Logo Tina | Diseño de Interiores">
+            <div>
+              <!--ENLACE A WHATSAPP WEB-->
+              <a class="a-footer"  href="https://wa.link/lldf3s">
+                <img class="icono-footer" src="../assets/icono_wapp.png" alt="Icono de whatsapp">
+              </a>
+              <!--ENLACE A PAGINA DE INSTAGRAM-->
+              <a class="a-footer" href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
+                <img class="icono-footer" src="../assets/icono_instagram.png" alt="Icono de Instagram">
+              </a>
+              <!--ENLACE PARA ESCRIBIR UN MENSAJE-->
+              <a class="a-footer" href="../pages/contacto.html">
+                <img class="icono-footer" src="../assets/icono-correo.png" alt="Icono de e-mail">
+              </a>
             </div>
           </div>
         </div>
-      </main>  
 
-      <footer>
-        <div class="container">
-          <!--LOGO Y ENLACES-->
-          <div class="row">
-            <div class="col text-aling-center">                    
-              <img class="logo-footer" src="../assets/logo-pie.png" alt="Logo Tina | Diseño de Interiores">
-              <div>
-                <!--ENLACE A WHATSAPP WEB-->
-                <a class="a-footer"  href="https://wa.link/lldf3s">
-                  <img class="icono-footer" src="../assets/icono_wapp.png" alt="Icono de whatsapp">
-                </a>
-                <!--ENLACE A PAGINA DE INSTAGRAM-->
-                <a class="a-footer" href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
-                  <img class="icono-footer" src="../assets/icono_instagram.png" alt="Icono de Instagram">
-                </a>
-                <!--ENLACE PARA ESCRIBIR UN MENSAJE-->
-                <a class="a-footer" href="../pages/contacto.html">
-                  <img class="icono-footer" src="../assets/icono-correo.png" alt="Icono de e-mail">
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="row p-padding">
-            <div class="col text-aling-center">
-              <p>Code & Desing by FiCA</p>  
-            </div>
+        <div class="row p-padding">
+          <div class="col text-aling-center">
+            <p>Code & Design by FiCA</p>  
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     <!--SCRIPT DE BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>        
