@@ -1,7 +1,13 @@
 /*--ESTILOS FOOTER--*/
+.contenedor-footer{
+    display: inline-block;
+    border: 7px solid $rosa;
+    padding: 15px;
+    margin-top: 90px;
+}
 .logo-footer{
-    width: 17%;
-    margin-top: 35px;
+    width: auto;
+    height: auto;
 }
 .a-footer{
     background-color: map-get($bg-color, tiza);
@@ -9,5 +15,16 @@
 }
 .icono-footer{
     background-color: map-get($bg-color, tiza);
-    width: 5%;
+    width: 40px;
+    height: 40px;
+}
+.contenedor-diseño{
+    padding: 0;
+    margin-top: 50px;
+}
+.diseño{
+    background-color: $verde-oscuro;
+    color: $tiza;
+    margin-bottom: 0;
+    padding: 0;
 }

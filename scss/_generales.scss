@@ -8,12 +8,13 @@ h1{
     font-weight: 600;
     color: $verde-H1;
     text-align: center;
-    margin: revert;
+    /*margin: revert;*/
+    padding: 40px;
 }
-.text-aling-justify{
+.justificar{
     text-align: justify;
 }
-.text-aling-center{
+.centar{
     text-align: center;
 }
 strong{
