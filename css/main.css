@@ -44,7 +44,7 @@
 .grid__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto 210px auto 260px auto auto;
+  grid-template-rows: auto auto 220px auto 260px auto auto;
   grid-template-areas: "detalle1   detalle1    foto_frente" "detalle2   detalle2    detalle2" "foto_1     foto_2      resumen_1" "detalle3   detalle3    detalle3" "foto_3     resumen_2   foto_4" "detalle4   detalle4    detalle4" "detalle5   detalle5    detalle5";
   margin-left: 15px;
   margin-right: 15px;
@@ -197,7 +197,6 @@ h1 {
   font-weight: 600;
   color: rgba(94, 97, 95, 0.6);
   text-align: center;
-  /*margin: revert;*/
   padding: 40px;
 }
 
@@ -263,6 +262,7 @@ strong {
 
 .caja__img {
   width: 95%;
+  height: auto;
   padding: 0;
 }
 
@@ -275,10 +275,6 @@ strong {
   font-size: 1.1rem;
   padding-top: 9px;
   padding-bottom: 9px;
-}
-
-.autor {
-  margin-top: 27px;
 }
 
 /*--ESTILOS DE SERVICIOS--*/
@@ -303,12 +299,10 @@ strong {
   padding: 5px;
 }
 
-.p-servicios {
-  text-align: justify;
-}
-
 /*--ESTILOS PORTAFOLIO--*/
 .img-portafolio {
+  display: block;
+  margin: 0 auto;
   width: 90%;
   border-radius: 4%;
 }
@@ -320,19 +314,18 @@ strong {
 }
 
 /*--ESTILOS CONTACTO--*/
-.contacto__p {
-  font-family: "Indie Flower", cursive;
-  margin-top: 50px;
-  margin-bottom: 0;
+.contenedor-icono {
+  padding-left: 42px;
 }
-
-.icono-contacto {
+.contenedor-icono__img {
   width: 40px;
   height: 40px;
 }
 
-.p-padding-cero {
-  padding: 0;
+.contacto__p {
+  font-family: "Indie Flower", cursive;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .btn-contacto {

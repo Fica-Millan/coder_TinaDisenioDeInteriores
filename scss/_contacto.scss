@@ -1,15 +1,16 @@
 /*--ESTILOS CONTACTO--*/
+.contenedor-icono{
+    padding-left: 42px;
+
+    &__img{
+        width: 40px;
+        height: 40px;
+    }
+}
 .contacto__p{
     font-family: $fuente-secu;
     margin-top: 50px;
     margin-bottom: 0;
-}
-.icono-contacto{
-    width: 40px;
-    height: 40px;
-}
-.p-padding-cero{
-    padding: 0;
 }
 .btn-contacto{
     border: none;
