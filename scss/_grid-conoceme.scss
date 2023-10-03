@@ -2,7 +2,7 @@
 .grid__container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto 220px auto 260px auto auto;
+    grid-template-rows: auto auto 220px auto 230px auto auto;
     grid-template-areas: 
     'detalle1   detalle1    foto_frente'
     'detalle2   detalle2    detalle2'
@@ -33,14 +33,17 @@
 }
 .foto_1{
     grid-area: foto_1;
-    width: 100%;
+    width: auto;
+    height: 100%;
 }
 .foto_2{
     grid-area: foto_2;
-    width: 100%;
+    width: auto;
+    height: 100%;
 }
 .resumen_1{
     grid-area: resumen_1;
+    background-color: map-get($bg-color, rosa);
     padding-top: 6px;
 }
 .descripcion_3{
@@ -50,15 +53,18 @@
 }
 .foto_3{
     grid-area: foto_3;
-    width: 100%;
+    width: auto;
+    height: 100%;
 }
 .resumen_2{
     grid-area: resumen_2;
+    background-color: map-get($bg-color, rosa);
     padding-top: 8px;
 }
 .foto_4{
     grid-area: foto_4;
-    width: 98%;
+    width: auto;
+    height: 100%;
 }
 .descripcion_4{
     grid-area: detalle4;

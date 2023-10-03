@@ -1,10 +1,19 @@
 /*--MEDIA QUERIES - INDEX--*/
-@media (min-width:300px) and (max-width:575px) {
+@media (min-width:300px) and (max-width:350px) {
+    .frase{
+        font-size:0.6em;
+    }
+}
+@media (min-width:351px) and (max-width:575px) {
     .frase{
         font-size:0.7em;
-        top: 0%;
-        left: 20%;
+    }
+}
+@media (min-width:300px) and (max-width:575px) {
+    .frase{
         margin-top: 15px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .bg-portada{
         background-image: url(../assets/portada2.webp);
