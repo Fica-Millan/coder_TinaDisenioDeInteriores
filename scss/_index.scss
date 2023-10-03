@@ -20,32 +20,8 @@
     margin:40px;
     @extend %frase-style;
     color: $verde-Frase;
-    //position: absolute;
-    //top: 15%;
-    //left: 25%;
     background: none;
 }
-.footer{
+.sin-footer{
     display: none;
 }
-/*.footer{
-    position: absolute;
-    bottom: 0;
-    background-color:  transparent;
-    margin-bottom: 5px;
-
-    &__contenedor{
-        margin-left: 42px;
-        background-color: transparent;
-
-        &__enlace{
-            background-color: transparent;
-            color: transparent;
-            
-            &__icono{
-                background-color:transparent;
-                width: 11%;
-            }
-        }
-    }       
-}*/

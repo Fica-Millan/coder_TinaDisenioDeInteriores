@@ -247,31 +247,10 @@ strong {
   background: none;
 }
 
-.footer {
+.sin-footer {
   display: none;
 }
 
-/*.footer{
-    position: absolute;
-    bottom: 0;
-    background-color:  transparent;
-    margin-bottom: 5px;
-
-    &__contenedor{
-        margin-left: 42px;
-        background-color: transparent;
-
-        &__enlace{
-            background-color: transparent;
-            color: transparent;
-
-            &__icono{
-                background-color:transparent;
-                width: 11%;
-            }
-        }
-    }       
-}*/
 /*--ESTILOS CONOCEME--*/
 .foto-frente__img {
   width: 100%;
