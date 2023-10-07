@@ -14,5 +14,6 @@
     background-color: map-get($bg-color, rosa);
     @extend %frase-style;
     font-size: 1.1rem;
-    padding: 9.1px;
+    margin-bottom: 0;
+    /*padding: 9.1px;*/
 }

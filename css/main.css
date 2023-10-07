@@ -44,7 +44,7 @@
 .grid__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto 220px auto 230px auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
   grid-template-areas: "detalle1   detalle1    foto_frente" "detalle2   detalle2    detalle2" "foto_1     foto_2      resumen_1" "detalle3   detalle3    detalle3" "foto_3     resumen_2   foto_4" "detalle4   detalle4    detalle4" "detalle5   detalle5    detalle5";
   margin-left: 15px;
   margin-right: 15px;
@@ -93,7 +93,6 @@
 
 .descripcion_3 {
   grid-area: detalle3;
-  padding-top: 43px;
   margin-bottom: 0;
 }
 
@@ -131,7 +130,6 @@
 
 .contenedor-header {
   padding: 0;
-  height: 17vh;
 }
 
 .contenedor-nav {
@@ -149,8 +147,22 @@
   border: none;
 }
 
+.navbar-toggler:focus {
+  outline: none;
+  border-color: transparent;
+  box-shadow: none;
+}
+
 .contenedor-ul {
   padding-right: 20px;
+}
+
+.derecha {
+  align-items: end;
+}
+
+.margen {
+  margin-bottom: 0;
 }
 
 .font-nav {
@@ -236,7 +248,7 @@ strong {
   justify-content: center;
   background-image: url(../assets/portada.webp);
   background-size: cover;
-  height: 72vh;
+  height: 100vh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -250,10 +262,8 @@ strong {
 }
 
 .footer-index {
-  align-items: center;
   border-top: 10px solid #f7f8f2;
   border-bottom: 10px solid #f7f8f2;
-  height: 11vh;
 }
 
 .footer-bg {
@@ -304,7 +314,8 @@ strong {
 .caja__resumen {
   background-color: #f0e3db;
   font-size: 1.1rem;
-  padding: 9.1px;
+  margin-bottom: 0;
+  /*padding: 9.1px;*/
 }
 
 /*--ESTILOS DE SERVICIOS--*/
@@ -386,6 +397,10 @@ ul {
   align-items: center;
 }
 
+.margen-ul {
+  margin-top: 45px;
+}
+
 li {
   margin-bottom: 10px;
 }
@@ -412,7 +427,7 @@ li {
   }
 }
 /*--MEDIA QUERIES - INDEX--*/
-@media (min-width: 300px) and (max-width: 350px) {
+@media (max-width: 350px) {
   .frase {
     font-size: 0.6em;
   }
@@ -422,7 +437,7 @@ li {
     font-size: 0.7em;
   }
 }
-@media (min-width: 300px) and (max-width: 575px) {
+@media (max-width: 575px) {
   .frase {
     margin-top: 15px;
     margin-left: 0;
@@ -431,11 +446,19 @@ li {
   .bg-portada {
     background-image: url(../assets/portada2.webp);
   }
-  .footer__contenedor {
-    margin-left: 300px;
+  /*.footer__contenedor{
+      margin-left: 300px;
+
+      &__enlace__icono{
+          width: 15%;
+      }
+  }*/
+  .diseño-index {
+    font-size: small;
   }
-  .footer__contenedor__enlace__icono {
-    width: 15%;
+  .col-index-foot {
+    min-height: auto;
+    justify-content: flex-start;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -502,10 +525,6 @@ li {
 @media (min-width: 768px) and (max-width: 992px) {
   .p-conoceme {
     font-size: 0.7rem;
-  }
-  .resumen_1 {
-    padding-top: 0;
-    width: 90%;
   }
   .descripcion_2 {
     margin-top: 0;

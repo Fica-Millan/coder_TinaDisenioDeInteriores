@@ -10,7 +10,7 @@
     justify-content: center;
     background-image: url(../assets/portada.webp);
     background-size: cover;
-    height: 72vh;
+    height: 100vh;
    @include padding-margin-0;
     position: relative;
 }
@@ -22,10 +22,8 @@
     background: none;
 }
 .footer-index{
-    align-items: center;
     border-top: 10px solid $tiza;
     border-bottom: 10px solid $tiza;
-    height: 11vh;
 }
 .footer-bg{
     background-color: $verde-oscuro;

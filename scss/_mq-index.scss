@@ -1,5 +1,5 @@
 /*--MEDIA QUERIES - INDEX--*/
-@media (min-width:300px) and (max-width:350px) {
+@media (max-width:350px) {
     .frase{
         font-size:0.6em;
     }
@@ -9,7 +9,7 @@
         font-size:0.7em;
     }
 }
-@media (min-width:300px) and (max-width:575px) {
+@media (max-width:575px) {
     .frase{
         margin-top: 15px;
         margin-left: 0;
@@ -18,12 +18,19 @@
     .bg-portada{
         background-image: url(../assets/portada2.webp);
     }
-    .footer__contenedor{
+    /*.footer__contenedor{
         margin-left: 300px;
 
         &__enlace__icono{
             width: 15%;
         }
+    }*/
+    .diseño-index{
+        font-size: small;
+    }
+    .col-index-foot{
+        min-height: auto;
+        justify-content:flex-start ;
     }
 }
 

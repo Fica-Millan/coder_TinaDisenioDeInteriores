@@ -4,7 +4,6 @@
 }
 .contenedor-header{
     padding: 0;
-    height: 17vh;
 }
 .contenedor-nav{
     padding: 0;
@@ -18,8 +17,19 @@
     color: $verde-oscuro;
     border: none;
 }
+.navbar-toggler:focus {
+    outline: none; 
+    border-color: transparent; 
+    box-shadow: none; 
+  }
 .contenedor-ul{
     padding-right: 20px;
+}
+.derecha{
+    align-items: end;
+}
+.margen{
+    margin-bottom: 0;
 }
 .font-nav{
     @include font-and-size; 
