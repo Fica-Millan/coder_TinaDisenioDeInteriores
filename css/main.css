@@ -131,6 +131,7 @@
 
 .contenedor-header {
   padding: 0;
+  height: 17vh;
 }
 
 .contenedor-nav {
@@ -190,6 +191,7 @@
 .diseño {
   background-color: #95a09a;
   color: #f7f8f2;
+  font-size: smaller;
   margin-bottom: 0;
   padding: 0;
 }
@@ -234,7 +236,7 @@ strong {
   justify-content: center;
   background-image: url(../assets/portada.webp);
   background-size: cover;
-  height: 540px;
+  height: 72vh;
   margin: 0;
   padding: 0;
   position: relative;
@@ -247,8 +249,41 @@ strong {
   background: none;
 }
 
-.sin-footer {
-  display: none;
+.footer-index {
+  align-items: center;
+  border-top: 10px solid #f7f8f2;
+  border-bottom: 10px solid #f7f8f2;
+  height: 11vh;
+}
+
+.footer-bg {
+  background-color: #95a09a;
+  color: #95a09a;
+}
+
+.contenedor-diseño-index {
+  padding: 0;
+}
+
+.logo-fot {
+  width: 65%;
+  height: auto;
+}
+
+.col-index-foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50px;
+}
+
+.diseño-index {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.derecha {
+  align-items: end;
 }
 
 /*--ESTILOS CONOCEME--*/
@@ -294,6 +329,10 @@ strong {
   padding: 5px;
 }
 
+.margen-renderizado {
+  margin-bottom: 0;
+}
+
 /*--ESTILOS PORTAFOLIO--*/
 .img-portafolio {
   display: block;
@@ -326,6 +365,29 @@ strong {
 .btn-contacto {
   border: none;
   background-color: #bdd2c1;
+}
+
+.icono-contacto {
+  position: relative;
+  display: block;
+}
+.icono-contacto__p {
+  margin-top: 5px;
+  padding-left: 10px;
+  border-left: 4px solid #f0e3db;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 10px;
 }
 
 /*--ANIMACION EN TITULOS Y EN FRASE CONTACTO--*/

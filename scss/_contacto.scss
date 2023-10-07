@@ -16,3 +16,26 @@
     border: none;
     background-color: $verde;
 }
+.icono-contacto{
+    position: relative;
+    display: block;
+
+    &__p{
+        margin-top: 5px;
+        padding-left: 10px;
+        border-left: 4px solid $rosa;
+    }
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+li{
+    margin-bottom: 10px;
+}

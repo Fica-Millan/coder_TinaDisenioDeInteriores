@@ -10,10 +10,9 @@
     justify-content: center;
     background-image: url(../assets/portada.webp);
     background-size: cover;
-    height: 540px;
+    height: 72vh;
    @include padding-margin-0;
     position: relative;
-
 }
 .frase{
     display: flex;
@@ -22,6 +21,33 @@
     color: $verde-Frase;
     background: none;
 }
-.sin-footer{
-    display: none;
+.footer-index{
+    align-items: center;
+    border-top: 10px solid $tiza;
+    border-bottom: 10px solid $tiza;
+    height: 11vh;
+}
+.footer-bg{
+    background-color: $verde-oscuro;
+    color: $verde-oscuro;
+}
+.contenedor-diseño-index{
+    padding: 0;
+}
+.logo-fot{
+    width: 65%;
+    height: auto;
+}
+.col-index-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50px;
+}
+.diseño-index{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.derecha{
+    align-items: end;
 }
