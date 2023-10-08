@@ -14,3 +14,7 @@
     align-items: $a-i;
 }
 
+@mixin estilo-footer{
+    background-color: $verde-oscuro;
+    color: $verde-oscuro;
+}

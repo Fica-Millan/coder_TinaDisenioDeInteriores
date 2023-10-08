@@ -1,9 +1,10 @@
 /*--ESTILOS DE SERVICIOS--*/
-.h2-servicios {
+.h2-servicios{
     font-weight:600;
-    text-align:center;   
     color: $verde-oscuro;
     background-color: map-get($bg-color, rosa);
+    text-align: center;
+    $font-sizes:map-get($font-sizes, md); 
 }
 .row-servicios{
     margin: 5px;

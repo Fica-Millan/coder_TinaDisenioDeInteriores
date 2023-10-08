@@ -45,30 +45,30 @@
     <header>
         <!--BARRA DE NAVEGACION-->
         <div class="col contenedor-header">
-            <nav class="navbar navbar-expand-lg bg-nav">
-                <div class="container-fluid contenedor-nav">
+            <nav class="navbar navbar-expand-lg contenedor-header__bg-nav">
+              <div class="container-fluid contenedor-header__bg-nav__nav">
                     <!--LOGO DEL SITIO-->
                     <a class="navbar-brand" href="../index.html"><img class="logo-nav"  src="../assets/logo.webp" alt="Logo Tina | Diseño de Interiores"></a>
-                    <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler logo-nav__boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!--MENU DE NAVEGACION-->
                     <div class="collapse navbar-collapse contenedor-ul" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end w-100 text-end derecha">
-                            <li class="nav-item margen">
-                                <a class="nav-link font-nav" href="../index.html">INICIO</a>
+                            <li class="nav-item derecha__margen">
+                                <a class="nav-link derecha__margen__font-nav" href="../index.html">INICIO</a>
                             </li>
-                            <li class="nav-item margen">
-                                <a class="nav-link font-nav" href="../pages/conoceme.html">CONOCEME</a>
+                            <li class="nav-item derecha__margen">
+                                <a class="nav-link derecha__margen__font-nav" href="../pages/conoceme.html">CONOCEME</a>
                             </li>
-                            <li class="nav-item margen">
-                                <a class="nav-link font-nav" href="../pages/servicios.html">SERVICIOS</a>
+                            <li class="nav-item derecha__margen">
+                                <a class="nav-link derecha__margen__font-nav" href="../pages/servicios.html">SERVICIOS</a>
                             </li>
-                            <li class="nav-item margen">
-                                <a class="nav-link font-nav" href="../pages/portafolio.html">PORTAFOLIO</a>
+                            <li class="nav-item derecha__margen">
+                                <a class="nav-link derecha__margen__font-nav" href="../pages/portafolio.html">PORTAFOLIO</a>
                             </li>
-                            <li class="nav-item margen">
-                                <a class="nav-link font-nav" href="../pages/contacto.html">CONTACTO</a>
+                            <li class="nav-item derecha__margen">
+                                <a class="nav-link derecha__margen__font-nav" href="../pages/contacto.html">CONTACTO</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +80,7 @@
     <main>
         <!--TITULO DE LA SECCION-->
         <div class="animate__animated animate__zoomIn">
-            <h1>Conoceme</h1> 
+            <h1 class="fz-xxl">Conoceme</h1> 
         </div>
 
         <div class="grid__container">
@@ -96,13 +96,13 @@
             </div>
 
             <!--FOTOS DE ELLA Y FRASE RESUMEN-->
-            <div class="caja foto_1 centar">
+            <div class="caja foto_1 foto">
                 <img class="caja__img" src="../assets/c_empresaria_01.jpg" alt="Foto de la diseñadora en un escritorio mirando de frente">
             </div>
-            <div class="caja foto_2 centar">
+            <div class="caja foto_2 foto">
                 <img class="caja__img" src="../assets/c_empresaria_02.webp" alt="Foto de la diseñadora mirando unos papeles">
             </div>
-            <div class="caja resumen_1" data-aos="zoom-in">
+            <div class="caja resumen_1 resumen" data-aos="zoom-in">
                 <p class="caja__resumen">Mi profunda pasión por transformar espacios y plasmar sueños, me impulsa a liderar proyectos únicos que reflejan la esencia de mis clientes.</p>
             </div>
 
@@ -112,13 +112,13 @@
             </div>
 
             <!--FOTOS Y FRASE RESUMEN-->
-            <div class="caja foto_3 centar">
+            <div class="caja foto_3 foto">
                 <img class="caja__img" src="../assets/c_trabajando_01.webp" alt="Foto de una mano haciendo un boceto en papel">
             </div>
-            <div class="caja resumen_2" data-aos="zoom-in">
+            <div class="caja resumen_2 resumen" data-aos="zoom-in">
                 <p class="caja__resumen">Cada proyecto es un desafío que me permite dejar una huella positiva en el mundo del diseño y crear espacios significativos colaborando con vos.</p>
             </div>
-            <div class="caja foto_4 centar">
+            <div class="caja foto_4 foto">
                 <img class="caja__img" src="../assets/c_trabajando_02.jpg" alt="Foto del escritorio de la diseñadora">
             </div>
                         
@@ -127,12 +127,12 @@
                 <p class="justificar">A través de TiNA Diseño de Interiores, espero compartir mi pasión y dedicación con vos y juntos crear espacios únicos y significativos.</p>
             </div>
             <div class="caja descripcion_5">
-                <p class="centar">¡Espero tener la maravillosa oportunidad de trabajar junto a vos con entusiasmo y dedicación, y así hacer realidad tus sueños en cada rincón que diseñemos juntos!</p>
+                <p class="centrar">¡Espero tener la maravillosa oportunidad de trabajar junto a vos con entusiasmo y dedicación, y así hacer realidad tus sueños en cada rincón que diseñemos juntos!</p>
             </div>
         </div>
     </main>
            
-    <footer class="container-fluid centar">
+    <footer class="container-fluid centrar">
         <div class="row contenedor-footer">
           <!--LOGO-->
           <div class="col centar">                    
@@ -143,15 +143,15 @@
           <div>
             <!--ENLACE A WHATSAPP WEB-->
             <a class="a-footer"  href="https://wa.me/5491149281727">
-              <img class="icono-footer" src="../assets/icono_wapp.png" alt="Icono de whatsapp">
+              <img class="a-footer__icono" src="../assets/icono_wapp.png" alt="Icono de whatsapp">
             </a>
             <!--ENLACE A PAGINA DE INSTAGRAM-->
             <a class="a-footer" href="https://instagram.com/tinainteriores?igshid=MzRlODBiNWFlZA==">
-              <img class="icono-footer" src="../assets/icono_instagram.png" alt="Icono de Instagram">
+              <img class="a-footer__icono" src="../assets/icono_instagram.png" alt="Icono de Instagram">
             </a>
             <!--ENLACE PARA ESCRIBIR UN MENSAJE-->
             <a class="a-footer" href="../pages/contacto.html">
-              <img class="icono-footer" src="../assets/icono-correo.png" alt="Icono de e-mail">
+              <img class="a-footer__icono" src="../assets/icono-correo.png" alt="Icono de e-mail">
             </a>
           </div>  
         </div>

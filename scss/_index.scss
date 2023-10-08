@@ -1,51 +1,40 @@
 /*--ESTILOS DEL INDEX--*/
-.grid{
-    @include padding-margin-0;
-}
 .contenedor-frase{
     margin: 0;
-}
-.bg-portada{
-    display: flex;
-    justify-content: center;
-    background-image: url(../assets/portada.webp);
-    background-size: cover;
-    height: 100vh;
-   @include padding-margin-0;
-    position: relative;
-}
-.frase{
-    display: flex;
-    margin:40px;
-    @extend %frase-style;
-    color: $verde-Frase;
-    background: none;
+
+    &__bg{
+        display: flex;
+        justify-content: center;
+        background-image: url(../assets/portada.webp);
+        background-size: cover;
+        height: 100vh;
+        @include padding-margin-0;
+        position: relative;
+  
+        &__frase{
+            display: flex;
+            margin:40px;
+            @extend %frase-style;
+            color: $verde-Frase;
+            background: none;
+            font-size: map-get($font-sizes, md);
+        }
+    }
 }
 .footer-index{
     border-top: 10px solid $tiza;
     border-bottom: 10px solid $tiza;
 }
-.footer-bg{
-    background-color: $verde-oscuro;
-    color: $verde-oscuro;
-}
 .contenedor-diseño-index{
     padding: 0;
 }
-.logo-fot{
-    width: 65%;
-    height: auto;
+.diseño-index{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .col-index-foot{
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 50px;
-}
-.diseño-index{
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-.derecha{
-    align-items: end;
 }

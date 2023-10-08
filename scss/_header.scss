@@ -1,37 +1,52 @@
 /*--ESTILOS DEL HEADER--*/
-.bg-nav{
-    background-color: $verde-oscuro;
-}
+
+//CONTENEDOR
 .contenedor-header{
     padding: 0;
+
+    &__bg-nav{
+        background-color: $verde-oscuro;
+        }
+
+        &__nav{
+            padding: 0;
+            padding-left: 27px;
+        }
 }
-.contenedor-nav{
-    padding: 0;
-    padding-left: 27px;
-}
+
+//LOGO
 .logo-nav{
     width: 65%;
     height: auto;
+
+    &__boton{
+        color: $verde-oscuro;
+        border: none;
+    }
 }
-.boton-nav{
-    color: $verde-oscuro;
-    border: none;
-}
+
+//BUTTON
 .navbar-toggler:focus {
     outline: none; 
     border-color: transparent; 
     box-shadow: none; 
   }
+
+//UL  
 .contenedor-ul{
     padding-right: 20px;
 }
+
+//MENU DE NAVEGACION
 .derecha{
     align-items: end;
-}
-.margen{
-    margin-bottom: 0;
-}
-.font-nav{
-    @include font-and-size; 
-    color: $verde-oscuro;
-}
+
+    &__margen{
+        margin-bottom: 0;
+        
+        &__font-nav{
+            @include font-and-size; 
+            color: $verde-oscuro;
+        }
+    }
+}  

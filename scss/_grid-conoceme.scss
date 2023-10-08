@@ -15,60 +15,40 @@
     margin-right: 15px;
     margin-bottom: 0;
 }
-.caja{
-    margin: 15px;
-}
+
 .descripcion_1{
     grid-area: detalle1;
 }
 .foto-frente{
     grid-area: foto_frente;
-    width: 93%;
-    @include flex-grid-conoceme (center, center);
-    margin-top: 0;
 }
 .descripcion_2{
     grid-area: detalle2;
-    margin-bottom: 0;
 }
 .foto_1{
     grid-area: foto_1;
-    width: auto;
-    height: 100%;
 }
 .foto_2{
     grid-area: foto_2;
-    width: auto;
-    height: 100%;
 }
 .resumen_1{
     grid-area: resumen_1;
-    background-color: map-get($bg-color, rosa);
-    padding-top: 6px;
 }
 .descripcion_3{
     grid-area: detalle3;
-    margin-bottom: 0;
 }
 .foto_3{
     grid-area: foto_3;
-    width: auto;
-    height: 100%;
 }
 .resumen_2{
     grid-area: resumen_2;
-    background-color: map-get($bg-color, rosa);
-    padding-top: 8px;
 }
 .foto_4{
     grid-area: foto_4;
-    width: auto;
-    height: 100%;
 }
 .descripcion_4{
     grid-area: detalle4;
 }
 .descripcion_5{
     grid-area: detalle5;
-    margin-top: 0;
 }

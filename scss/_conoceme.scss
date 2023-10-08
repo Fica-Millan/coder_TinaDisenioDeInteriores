@@ -1,19 +1,44 @@
 /*--ESTILOS CONOCEME--*/
-.foto-frente__img{
-    width: 100%;
+.caja{
+    margin: 10px 15px 10px 15px;
 }
+
 .caja__img{
     width: 95%;
     height: auto;
     padding: 0;
 }
-.p-padding{
-    padding-top: 30px;
-}
+
 .caja__resumen{
     background-color: map-get($bg-color, rosa);
     @extend %frase-style;
     font-size: 1.1rem;
-    margin-bottom: 0;
-    /*padding: 9.1px;*/
+}
+
+.p-padding{
+    padding-top: 30px;
+}
+
+.foto-frente{
+    width: 93%;
+    @include flex-grid-conoceme (center, center);
+
+    &__img{
+        width: 100%;
+    }
+}
+
+.descripcion_3{
+    margin-top: 25px;
+}
+
+.foto{
+    width: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.resumen{
+    background-color: map-get($bg-color, rosa);
+    padding-top: 8px;
 }
