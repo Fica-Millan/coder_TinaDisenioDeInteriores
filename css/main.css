@@ -45,7 +45,7 @@
 .grid__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-rows: repeat(7, auto);
   grid-template-areas: "detalle1   detalle1    foto_frente" "detalle2   detalle2    detalle2" "foto_1     foto_2      resumen_1" "detalle3   detalle3    detalle3" "foto_3     resumen_2   foto_4" "detalle4   detalle4    detalle4" "detalle5   detalle5    detalle5";
   margin-left: 15px;
   margin-right: 15px;
@@ -258,14 +258,20 @@ strong {
 }
 
 .caja__img {
-  width: 95%;
+  width: 100%;
   height: auto;
-  padding: 0;
 }
 
 .caja__resumen {
   background-color: #f0e3db;
   font-size: 1.1rem;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+.resumen {
+  background-color: #f0e3db;
+  padding-top: 8px;
 }
 
 .p-padding {
@@ -290,11 +296,6 @@ strong {
   width: auto;
   height: 100%;
   text-align: center;
-}
-
-.resumen {
-  background-color: #f0e3db;
-  padding-top: 8px;
 }
 
 /*--ESTILOS DE SERVICIOS--*/
@@ -360,18 +361,19 @@ li {
 .margen-ul {
   margin-top: 45px;
 }
-.margen-ul__icono-contacto {
+
+.icono-contacto {
   position: relative;
   display: block;
 }
-.margen-ul__icono-contacto__p {
+.icono-contacto__img {
+  width: auto;
+  height: 40px;
+}
+.icono-contacto__p {
   margin-top: 5px;
   padding-left: 10px;
   border-left: 4px solid #f0e3db;
-}
-.margen-ul__icono-contacto__img {
-  width: auto;
-  height: 40px;
 }
 
 .contacto__p {
@@ -403,32 +405,31 @@ li {
   }
 }
 /*--MEDIA QUERIES - INDEX--*/
-@media (max-width: 350px) {
-  .frase {
+@media (min-width: 300px) and (max-width: 350px) {
+  .contenedor-frase__bg__frase {
     font-size: 0.6em;
   }
 }
 @media (min-width: 351px) and (max-width: 575px) {
-  .frase {
+  .contenedor-frase__bg__frase {
     font-size: 0.7em;
   }
 }
-@media (max-width: 575px) {
-  .frase {
+@media (min-width: 576px) and (max-width: 767px) {
+  .contenedor-frase__bg__frase {
+    font-size: 1em;
+    left: 15%;
+  }
+}
+@media (min-width: 300px) and (max-width: 575px) {
+  .contenedor-frase__bg__frase {
     margin-top: 15px;
     margin-left: 0;
     margin-right: 0;
   }
-  .bg-portada {
+  .contenedor-frase__bg {
     background-image: url(../assets/portada2.webp);
   }
-  /*.footer__contenedor{
-      margin-left: 300px;
-
-      &__enlace__icono{
-          width: 15%;
-      }
-  }*/
   .diseño-index {
     font-size: small;
   }
@@ -437,73 +438,22 @@ li {
     justify-content: flex-start;
   }
 }
-@media (min-width: 576px) and (max-width: 767px) {
-  .frase {
-    font-size: 1em;
-    left: 15%;
-  }
-}
 /*--MEDIA QUERIES - CONOCEME--*/
-@media (min-width: 300px) and (max-width: 575px) {
+@media (min-width: 300px) and (max-width: 1199px) {
   .grid__container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(10, auto);
     grid-template-areas: "detalle1       detalle1" "foto_frente    foto_frente" "detalle2       detalle2" "foto_1         foto_2" "resumen_1      resumen_1" "detalle3       detalle3" "foto_3         foto_4" "resumen_2      resumen_2" "detalle4       detalle4" "detalle5       detalle5";
   }
-  .descripcion_3 {
-    padding-top: 0;
+  .foto-frente__img {
+    display: flex;
+    width: 50%;
+    max-width: 100%;
   }
 }
 @media (min-width: 300px) and (max-width: 991px) {
-  .foto-frente__img {
-    display: flex;
-    width: 50%;
-    max-width: 100%;
-  }
   .caja__resumen {
     font-size: 1rem;
-  }
-  .foto_3 {
-    width: 93%;
-  }
-  .p-padding {
-    padding-top: 0;
-    margin-top: 0;
-  }
-  .foto_4 {
-    width: 93%;
-  }
-  .p-conoceme {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 576px) and (max-width: 1199px) {
-  .grid__container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto auto auto;
-    grid-template-areas: "detalle1       detalle1" "foto_frente    foto_frente" "detalle2       detalle2" "foto_1         foto_2" "resumen_1      resumen_1" "detalle3       detalle3" "foto_3         foto_4" "resumen_2      resumen_2 " "detalle4       detalle4" "detalle5       detalle5";
-  }
-  .foto-frente__img {
-    display: flex;
-    width: 50%;
-    max-width: 100%;
-  }
-  .descripcion_3 {
-    padding-top: 0;
-  }
-  .caja__resumen {
-    margin: 0;
-  }
-  .p-padding {
-    padding-top: 0;
-  }
-}
-@media (min-width: 768px) and (max-width: 992px) {
-  .p-conoceme {
-    font-size: 0.7rem;
-  }
-  .descripcion_2 {
-    margin-top: 0;
   }
 }
 

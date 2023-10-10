@@ -2,7 +2,7 @@
 .grid__container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: repeat(7, auto);
     grid-template-areas: 
     'detalle1   detalle1    foto_frente'
     'detalle2   detalle2    detalle2'

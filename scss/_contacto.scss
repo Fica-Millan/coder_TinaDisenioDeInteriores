@@ -19,23 +19,23 @@ li{
 
 .margen-ul{
     margin-top: 45px;
+}
 
-    &__icono-contacto{
-        position: relative;
-        display: block;
+.icono-contacto{
+    position: relative;
+    display: block;
     
-        &__p{
-            margin-top: 5px;
-            padding-left: 10px;
-            border-left: 4px solid $rosa;
-        }
-
-        &__img{
+    &__img{
         width: auto;
         height: 40px;
-        }
+    }
+    &__p{
+        margin-top: 5px;
+        padding-left: 10px;
+        border-left: 4px solid $rosa;
     }
 }
+
 
 //FRASE FINAL DE AGUS
 .contacto__p{
@@ -43,4 +43,4 @@ li{
     margin-top: 50px;
     margin-bottom: 0;
     font-size: map-get($font-sizes, md);
-}
+} 

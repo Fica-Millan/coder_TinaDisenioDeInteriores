@@ -1,8 +1,9 @@
 /*--MEDIA QUERIES - CONOCEME--*/
-@media (min-width:300px) and (max-width:575px) {
+
+@media (min-width:300px) and (max-width:1199px) {
     .grid__container{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: repeat(10, auto);
         grid-template-areas: 
         'detalle1       detalle1'
         'foto_frente    foto_frente'
@@ -15,70 +16,16 @@
         'detalle4       detalle4'
         'detalle5       detalle5';
     }
-    .descripcion_3 {
-        padding-top: 0; 
-    }
-}    
-@media (min-width:300px) and (max-width:991px) {
-    .foto-frente__img {
-        display: flex;
-        width: 50%;
-        max-width: 100%;
-    }
-    .caja__resumen{
-        font-size: 1rem;
-    }
-    .foto_3 {
-        width: 93%;
-    }
-    .p-padding {
-        padding-top: 0;
-        margin-top: 0;
-    }
-    .foto_4 {
-        width: 93%;
-    }
-    .p-conoceme {
-        font-size: 1rem;
-    }
-}
-@media (min-width:576px) and (max-width:1199px){
-    .grid__container{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto;
-        grid-template-areas: 
-        'detalle1       detalle1'
-        'foto_frente    foto_frente'
-        'detalle2       detalle2'
-        'foto_1         foto_2'
-        'resumen_1      resumen_1'
-        'detalle3       detalle3'
-        'foto_3         foto_4'
-        'resumen_2      resumen_2 '
-        'detalle4       detalle4'
-        'detalle5       detalle5';
-    }  
-    .foto-frente__img {
-        display: flex;
-        width: 50%;
-        max-width: 100%;
-    }
-    .descripcion_3 {
-        padding-top: 0; 
-    }
-    .caja__resumen{
-        margin: 0;
-    }
-    .p-padding{
-        padding-top: 0;
-    }
-}
 
-@media (min-width:768px) and (max-width:992px) {  
-    .p-conoceme {
-        font-size: 0.7rem;
+    .foto-frente__img {
+        display: flex;
+        width: 50%;
+        max-width: 100%;
     }
-    .descripcion_2 {
-        margin-top: 0;
+} 
+
+@media (min-width:300px) and (max-width:991px) {
+    .caja__resumen{
+        font-size: 1rem;
     }
 }

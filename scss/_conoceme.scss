@@ -4,16 +4,21 @@
 }
 
 .caja__img{
-    width: 95%;
+    width: 100%;
     height: auto;
-    padding: 0;
-}
+} 
 
 .caja__resumen{
     background-color: map-get($bg-color, rosa);
     @extend %frase-style;
     font-size: 1.1rem;
+    padding: 5px;
+    margin-bottom: 0;
 }
+.resumen{
+    background-color: map-get($bg-color, rosa);
+    padding-top: 8px;
+} 
 
 .p-padding{
     padding-top: 30px;
@@ -36,9 +41,4 @@
     width: auto;
     height: 100%;
     text-align: center;
-}
-
-.resumen{
-    background-color: map-get($bg-color, rosa);
-    padding-top: 8px;
 }
