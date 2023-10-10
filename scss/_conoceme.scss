@@ -12,8 +12,12 @@
     background-color: map-get($bg-color, rosa);
     @extend %frase-style;
     font-size: 1.1rem;
-    padding: 5px;
     margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
 }
 .resumen{
     background-color: map-get($bg-color, rosa);
