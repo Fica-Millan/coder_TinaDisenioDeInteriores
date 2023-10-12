@@ -22,12 +22,6 @@ $font-sizes:(
     xs: 14px,
 );   
 
-@each $size, $num in $font-sizes{
-    .fz-#{$size}{
-        font-size: $num;
-    }
-};
-
 //MAPS CON GET
 $bg-color:(
     rosa: $rosa,

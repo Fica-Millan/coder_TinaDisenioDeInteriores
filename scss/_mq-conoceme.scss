@@ -3,7 +3,7 @@
 @media (min-width:300px) and (max-width:1199px) {
     .grid__container{
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(10, auto);
+        grid-template-rows: repeat(11, auto);
         grid-template-areas: 
         'detalle1       detalle1'
         'foto_frente    foto_frente'
@@ -11,10 +11,11 @@
         'foto_1         foto_2'
         'resumen_1      resumen_1'
         'detalle3       detalle3'
+        'detalle4       detalle4'
         'foto_3         foto_4'
         'resumen_2      resumen_2'
-        'detalle4       detalle4'
-        'detalle5       detalle5';
+        'detalle5       detalle5'
+        'detalle6       detalle6';
     }
 
     .foto-frente__img {
@@ -28,8 +29,4 @@
     .caja__resumen{
         font-size: 1rem;
     }
-}
-
-@media (min-width:1920px){
-    
 }

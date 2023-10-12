@@ -1,0 +1,11 @@
+/*--MEDIA QUERIES CONTACTO--*/
+
+@media (min-width:300px) and (max-width:360px){
+    .contacto__p{
+        font-size: map-get($font-sizes, sm);
+    }
+
+    .form{
+        font-size: 0.8rem;
+    }
+}

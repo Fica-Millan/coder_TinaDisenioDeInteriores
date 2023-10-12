@@ -4,23 +4,23 @@
 
 Este proyecto es el resultado de mi trabajo a lo largo del curso de Desarrollador Web Flex ofrecido por CoderHouse. Durante el curso, se llevaron a cabo tres entregas parciales:
 
-### Primer entrega: 
+__Primer entrega:__ 
 * Prototipar la web para tener una idea clara del resultado al que se quiere llegar.
 * Maquetar la web: utilizar los tags, en especial los semánticos, para describir la estructura de la web desde el código.
 * Crear un estilo inicial: comenzar a darle estilo básico a la web.
 
-### Segunda entrega:
+__Segunda entrega:__
 * Realizar una estructura avanzada de la web.
 * Efectuar el estilo avanzado de la web.
 * Generar la carga en un repositorio en GitHub.
 
-### Tercer entrega:
+__Tercer entrega:__
 * Realizar la estructura final de la web.
 * Efectuar el estilo final de la web.
 * Realizar una correcta implementación de SASS.
 * Generar la carga en un repositorio en GitHub.
 
-### Proyecto final:
+__Proyecto final:__
 * __Estructura final de la web:__ Respetando los criterios trabajados respecto a legibilidad, adaptación al framework, uso de etiquetas y prácticas de SEO.
 
     Formato: Archivos HTML
@@ -36,7 +36,7 @@ Este proyecto es el resultado de mi trabajo a lo largo del curso de Desarrollado
 
 Este repositorio contiene el producto final de todo ese esfuerzo.
 
-### Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 Para el desarrollo de la página web se utilizó: 
 
@@ -63,7 +63,7 @@ __Información de Contacto:__ En la sección de contacto, los visitantes pueden 
 
 __Colaboración Futura:__ A pesar de que la página actualmente no está activa, está diseñada para facilitar la activación futura cuando Agustina esté lista para mostrar su trabajo al público.
 
-## Autor
+## Acerca de mi
 
 Hola, soy Fica, y esta es mi primera página web!!! 
 

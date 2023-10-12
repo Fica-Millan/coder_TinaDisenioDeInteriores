@@ -32,8 +32,6 @@
     padding: 10px 0 10px 5px;
 }
 .col-index-foot{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include flex-grid (center, none);
     min-height: 50px;
 } 

@@ -1,16 +1,16 @@
 /*--GRID - CONOCEME--*/
 .grid__container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
     grid-template-rows: repeat(7, auto);
     grid-template-areas: 
-    'detalle1   detalle1    foto_frente'
-    'detalle2   detalle2    detalle2'
-    'foto_1     foto_2      resumen_1'
-    'detalle3   detalle3    detalle3'
-    'foto_3     resumen_2   foto_4'
-    'detalle4   detalle4    detalle4'
-    'detalle5   detalle5    detalle5';
+    'detalle1   detalle1    detalle1    foto_frente'
+    'detalle2   detalle2    detalle2    detalle2'
+    'foto_1     foto_2      foto_2      resumen_1'
+    'detalle3   detalle3    detalle4    detalle4'
+    'foto_3     resumen_2   resumen_2   foto_4'
+    'detalle5   detalle5    detalle5    detalle5'
+    'detalle6   detalle6    detalle6    detalle6';
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 0;
@@ -51,4 +51,7 @@
 }
 .descripcion_5{
     grid-area: detalle5;
+}
+.descripcion_6{
+    grid-area: detalle6;
 }

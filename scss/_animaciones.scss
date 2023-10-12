@@ -1,4 +1,6 @@
 /*--ANIMACION EN TITULOS Y EN FRASE CONTACTO--*/
+
+//ANIMACION TITULOS
 .animacion{
     overflow: hidden;
 
@@ -10,6 +12,7 @@
     }
 }
 
+//ANIMACION FRASE CONTACTO
 @keyframes typing {
     from {
       width: 0; 

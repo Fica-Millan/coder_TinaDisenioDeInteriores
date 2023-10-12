@@ -13,9 +13,9 @@
     @extend %frase-style;
     font-size: 1.1rem;
     margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    @include flex-grid(center, none);
     text-align: center;
     height: 100%;
 }
@@ -30,15 +30,16 @@
 
 .foto-frente{
     width: 93%;
-    @include flex-grid-conoceme (center, center);
+    @include flex-grid (center, center);
 
     &__img{
         width: 100%;
     }
 }
 
-.descripcion_3{
+.descr-col{
     margin-top: 25px;
+    @include flex-grid(center, center);
 }
 
 .foto{

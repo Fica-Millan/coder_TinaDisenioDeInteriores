@@ -8,8 +8,9 @@
     padding: 0;
 }
 
-@mixin flex-grid-conoceme ($j-c, $a-i){
+@mixin flex-grid ($j-c, $a-i){
     display: flex;
+    flex-direction: column;
     justify-content: $j-c;
     align-items: $a-i;
 }
